@@ -4,13 +4,14 @@ import Link from "next/link";
 import { produit, site } from "./config";
 import * as ga from "../utils/ga";
 import ReactHtmlParser from "react-html-parser";
+import {useEffect } from "react";
 
 export default function Details() {
   const [quantity, setQuantity] = useState(1);
   const [variante, setVariante] = useState(27);
   const [loading, setLoading] = useState(false);
   const [link, setLink] = useState(
-    `${site.checkoutx}${produit.id}_0_${quantity}`
+    `${site.checkoutx}${produit.id}_${variante}_${quantity}`
   );
 
   const quantityPicker = (qty) => {
@@ -29,6 +30,25 @@ export default function Details() {
     console.log(link);
   };
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
+  }, []);
+
+  const listenToScroll = () => {
+    let heightToHideFrom = 2000;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+
+    if (winScroll > heightToHideFrom) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
   async function AddToCart() {
     setLoading(true);
     const { default: ReactPixel } = await import("react-facebook-pixel");
@@ -39,7 +59,7 @@ export default function Details() {
       action: "add_to_cart",
       params: {},
     });
-
+console.log(link);
     window.location.href = link;
   }
 
@@ -348,7 +368,7 @@ export default function Details() {
           </button>
         </section>
 
-        <section className='mt-5 flex justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[80%] tracking-wider'>
+        <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[80%] tracking-wider'>
         
         <h3 className="text-center">
           <strong> Warning!</strong> They are only <strong>7 </strong>
@@ -378,6 +398,46 @@ export default function Details() {
         </div>
         <Assets />
       </article>
-      </div> </section>
+      </div> 
+      
+      
+      {isVisible ? (
+                <div className=' lg:hidden w-[90%] m-auto fixed bottom-0 left-0 right-0 pb-2 z-[2]'>
+                  <button
+                 onClick={AddToCart}
+                    className=' mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#53ac58] text-white  tracking-wider rounded-2xl'>
+                  
+                  {loading ? (
+              <svg
+                className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
+                xmlns='http://www.w3.org/2000/svg'
+                fill='none'
+                viewBox='0 0 24 24'>
+                <circle
+                  className='opacity-25'
+                  cx='12'
+                  cy='12'
+                  r='10'
+                  stroke='currentColor'
+                  strokeWidth='4'></circle>
+                <path
+                  className='opacity-75'
+                  fill='currentColor'
+                  d='M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z'></path>
+              </svg>
+            ) : (
+              ""
+            )}
+
+            <div>ADD TO CART</div>
+                  </button>
+                </div>
+              ) : null}
+      
+      
+      
+      </section>
+
+      
   );
 }
