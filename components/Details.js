@@ -348,6 +348,16 @@ export default function Details() {
           </button>
         </section>
 
+        <section className='mt-5 flex justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[80%] tracking-wider'>
+        
+        <h3 className="text-center">
+          <strong> Warning!</strong> They are only <strong>7 </strong>
+          sales left at <strong>50% OFF</strong>
+        </h3>
+      </section>
+
+      
+
         <section className='mt-5 space-x-2 rounded-lg  p-1 bg-[#eef2fd]  lg:w-[90%]  text-sm md:mx-auto'>
         
       <div className='flex items-center justify-between px-2'><div><b>Frank C. -</b> <span className="text-sm">Verified Buyer</span></div> <article className='flex space-x-1 py-1'>
