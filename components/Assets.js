@@ -59,13 +59,13 @@ export default function Assets() {
         <h3>Secure payments with our partners</h3>
       </section>
 
-      {/* <section className='mt-5 flex justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[80%] tracking-wider'>
+      <section className='mt-5 flex justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[80%] tracking-wider'>
         
         <h3 className="text-center">
           <strong> Warning!</strong> They are only <strong>7 </strong>
           sales left at <strong>50% OFF</strong>
         </h3>
-      </section> */}
+      </section> 
 
       <section className='mt-5  border-y-[1px] p-2 py-3 md:mx-auto md:w-3/5 lg:mx-0 lg:w-[80%]'>
         {questions.map((item, index) => {
