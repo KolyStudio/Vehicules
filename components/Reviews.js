@@ -13,7 +13,7 @@ export default function Reviews() {
       <section className='m-auto flex w-[95%] items-center rounded-2xl border-[5px] border-[#FBEDE2] p-5 shadow-xl md:w-[90%] lg:w-[600px]'>
         <article className='w-full space-y-[-15px]'>
           <div className='flex  items-center justify-center pb-5 text-center font-medium'>
-            <span className='mb-0 flex pb-0 text-4xl font-bold'>4.7</span>/5
+            <span className='mb-0 flex pb-0 text-4xl font-bold'>4.8</span>/5
           </div>
           <h2 className=' text-center font-medium'>Based on 236 Reviews</h2>
           <div className='flex items-center justify-center space-x-[5px] p-5 text-[20px] lg:px-0 lg:text-xl '>
