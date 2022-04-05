@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }) {
         <link rel='icon' type='image/png' href='/favicon.png' />
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-EZPX8ZB89E9G`}
+            src={`https://www.googletagmanager.com/gtag/js?id=G-PX8ZB89E9G`}
           />
           <script
             dangerouslySetInnerHTML={{
@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }) {
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('config', 'G-EZPX8ZB89E9G', {
+                        gtag('config', 'G-PX8ZB89E9G', {
                         page_path: window.location.pathname,
                         });
                     `,

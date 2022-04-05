@@ -3,7 +3,7 @@ export const site = {
   email: "contact@cincar.co",
   adresse: "cincar.co",
   fb_pixel: "496114882168181",
-  ga_pixel: "G-EZPX8B89E9G",
+  ga_pixel: "G-PX8B89E9G",
   checkoutx: "https://secure.cincar.co/f/Y9NHD36G/b/",
   offre: "WINTER SALES: ENJOY 50% OFF & FREE SHIPPING",
 };
