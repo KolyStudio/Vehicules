@@ -74,7 +74,7 @@ export default function Assets() {
                 <h1 className=''>{item.title}</h1>
 
                 {clicked === index ?  (
-                  <p className='pl-3 text-sm'>{item.content}</p>
+                  <p className='text-sm'>{item.content}</p>
                 ) : (
                   ""
                 )}
