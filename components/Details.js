@@ -5,11 +5,33 @@ import { produit, site } from "./config";
 import * as ga from "../utils/ga";
 import ReactHtmlParser from "react-html-parser";
 import {useEffect } from "react";
+  import React from 'react';
+  import { useTimer } from 'react-timer-hook';
+
 
 export default function Details() {
+
+  const time = new Date();
+  const expiryTimestamp = time.setSeconds(time.getSeconds() + 3600);
+
+  const {
+    seconds,
+    minutes,
+    hours,
+    days,
+    isRunning,
+    start,
+    pause,
+    resume,
+    restart,
+  } = useTimer({ expiryTimestamp, onExpire: () => console.warn('onExpire called')});
+
+
+
   const [quantity, setQuantity] = useState(1);
   const [variante, setVariante] = useState(27);
   const [loading, setLoading] = useState(false);
+
   const [link, setLink] = useState(
     `${site.checkoutx}${produit.id}_${variante}_${quantity}`
   );
@@ -351,7 +373,7 @@ console.log(link);
                 className='w-[25px]  '
               />
         <h3 className="">
-           Your special <strong className="text-primary">50% OFF discount </strong>is applied  until <strong className="text-primary">06 April</strong>
+           Your special <strong className="text-primary">50% OFF discount </strong>is applied for <strong className="text-primary">{hours}h {minutes}m {seconds}s</strong>
         </h3>
       </section>
 
