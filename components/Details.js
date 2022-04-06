@@ -377,7 +377,7 @@ console.log(link);
               <span>63% </span>
             ) : (
               <span>68% </span>
-            )} OFF limited time</strong> discount until <strong className="text-[#1b74e4]">07 April</strong>
+            )} OFF discount</strong>  until <strong className="text-[#1b74e4]">07 April</strong>
         </h3>
       </section>
 
