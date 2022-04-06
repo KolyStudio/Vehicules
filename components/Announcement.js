@@ -9,7 +9,7 @@ export default function Announcement() {
                 className='w-[25px] lg:static absolute left-2'
               />
               
-               <div className="lg:pl-0 pl-4 text-center" ><strong className="text-[#1b74e4]">FACEBOOK OFFER:</strong> <span className="font-medium">50% OFF & FREE DELIVERY</span>
+               <div className="lg:pl-0  text-center" ><strong className="text-[#1b74e4]">FACEBOOK OFFER:</strong> <span className="font-medium">50% OFF & FREE DELIVERY</span>
               </div>
     </section>
   );

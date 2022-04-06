@@ -19,7 +19,7 @@ export default function ImageProduit() {
       <section className='w-full'>
         
         <Swiper
-          className=' right-0 rounded-xl  p-3 md:w-[550px] lg:mt-10 lg:w-[550px] '
+          className=' right-0   p-3 md:w-[550px] lg:mt-10 lg:w-[550px] '
           modules={[Thumbs, Navigation, Pagination, Scrollbar, A11y]}
           loop
           pagination={{ clickable: true }}
@@ -29,35 +29,35 @@ export default function ImageProduit() {
             <img
               alt='test'
               src='/produits/produit/prod_1.webp'
-              className='w-[600px] rounded-xl'
+              className='w-[600px]'
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               alt='test'
               src='/produits/produit/prod_2.webp'
-              className='w-[600px] rounded-xl'
+              className='w-[600px] '
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               alt='test'
               src='/produits/produit/prod_3.webp'
-              className='w-[600px] rounded-xl'
+              className='w-[600px]'
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               alt='test'
               src='/produits/produit/prod_4.webp'
-              className='w-[600px] rounded-xl'
+              className='w-[600px]'
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               alt='test'
               src='/produits/produit/prod_5.webp'
-              className='w-[600px] rounded-xl'
+              className='w-[600px] '
             />
           </SwiperSlide>
           
