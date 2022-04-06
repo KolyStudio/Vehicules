@@ -90,7 +90,7 @@ console.log(link);
         </article>
 
         <article className='flex items-center space-x-1 py-2'>
-          <span className='text-xl font-semibold text-[#f58523]'>
+          <span className='text-xl font-semibold text-[#1b74e4]'>
             {quantity == 1 ? (
               <h3>£{produit.price.toFixed(2)}</h3>
             ) : quantity == 2 ? (
@@ -234,12 +234,12 @@ console.log(link);
           <article
             onClick={() => quantityPicker(1)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 1 ? "bg-[#eef2fd] border-primary text-black " : ""
+              quantity == 1 ? "bg-[#eef2fd] border-blue-400 text-black " : ""
             }`}>
               <div className='flex items-center justify-between'>
             {quantity == 1 ? (
 
-<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-400'></div>
+<div className='w-[25px] bg-[#1b74e4] h-[20px] rounded-full border-[3px] border-blue-400'></div>
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
@@ -247,7 +247,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-bold ${
-              quantity == 1 ? "border-black  text-[#f58523]" : "text-[#f58523]"}`}>£{produit.price.toFixed(2)}</span>
+              quantity == 1 ? "border-black  text-[#1b74e4]" : "text-[#1b74e4]"}`}>£{produit.price.toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2).toFixed(2)}</span>
               </div>
              </div>
@@ -257,20 +257,20 @@ console.log(link);
           <article
             onClick={() => quantityPicker(2)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 2 ? "bg-[#eef2fd] border-primary text-black" : ""
+              quantity == 2 ? "bg-[#eef2fd] border-blue-400 text-black" : ""
             }`}>
               <div className='flex items-center justify-between'>
               {/* <div className='absolute top-0 left-[35px] text-sm font-medium animate-pulse'>BEST SELLER</div> */}
             {quantity == 2 ? (
 
-<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-400'></div>
+<div className='w-[25px] bg-[#1b74e4] h-[20px] rounded-full border-[3px] border-blue-400'></div>
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
              <div className='font-semibold w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF <br></br>= £{(((produit.price * 1.5) ) / 2).toFixed(2)} each</div>
             <div className='flex flex-col'>
               <span className={` font-bold ${
-              quantity == 2 ? " text-[#f58523]" : "text-[#f58523]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
+              quantity == 2 ? " text-[#1b74e4]" : "text-[#1b74e4]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2 * 2).toFixed(2)}</span>
               </div>
               <div className='absolute bottom-0 left-[35px] text-sm font-medium'></div>
@@ -281,14 +281,14 @@ console.log(link);
           <article
             onClick={() => quantityPicker(3)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 3 ? "bg-[#eef2fd] border-primary text-black" : ""
+              quantity == 3 ? "bg-[#eef2fd] border-blue-400 text-black" : ""
             }`}>
               <div className='flex items-center justify-between'>
             {quantity == 3 ? (
 
-              <div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-400'>
+<div className='w-[25px] bg-[#1b74e4] h-[20px] rounded-full border-[3px] border-blue-400'></div>
                
-              </div>
+              
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
@@ -296,7 +296,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-bold ${
-              quantity == 3 ? "text-[#f58523]" : "text-[#f58523]"}`}>£{(produit.price * 2).toFixed(2)}</span>
+              quantity == 3 ? "text-[#1b74e4]" : "text-[#1b74e4]"}`}>£{(produit.price * 2).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'> £{(produit.price * 2 * 3).toFixed(2)}</span>
               </div>
 
@@ -308,7 +308,7 @@ console.log(link);
         <section className=' md:m-auto lg:m-0'>
           <button
             onClick={AddToCart}
-            className='mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#35bd5a] text-white  tracking-wider rounded-xl'>
+            className='mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#1b74e4] text-white  tracking-wider rounded-xl'>
             {loading ? (
               <svg
                 className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
@@ -335,18 +335,13 @@ console.log(link);
           </button>
         </section>
 
-        {/* <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[80%] tracking-wider'>
+        <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
         
         <h3 className="text-center">
-           You came from <strong className="text-[#1b74e4]">Facebook </strong> ? Congrats. You win a <strong className="text-[#1b74e4]">special {quantity == 1 ? (
-              <span>50% </span>
-            ) : quantity == 2 ? (
-              <span>63% </span>
-            ) : (
-              <span>68% </span>
-            )} OFF discount</strong>  until <strong className="text-[#1b74e4]">07 April</strong>
+          <strong> Warning!</strong> They are only <strong>7 </strong>
+          sales left at <strong>50% OFF</strong>
         </h3>
-      </section> */}
+      </section>
 
       
 
@@ -362,7 +357,7 @@ console.log(link);
             
           </span>
         </article></div>
-        <div>&quot;I bought it for my motorcycle because I was robbed when it was parked on the street. It&apos;s a very nice solution, well made, easy to install, my stress is out now.&quot;</div>
+        <div>&quot;I bought it for my motorcycle because I was robbed when it was parked on the street. It&apos;s a very nice solution, well made, easy to install, my stress is out now.&quot; </div>
       </section>
 
         
@@ -377,7 +372,7 @@ console.log(link);
                 <div className=' lg:hidden w-[90%] m-auto fixed bottom-0 left-0 right-0 pb-2 z-[2]'>
                   <button
                  onClick={AddToCart}
-                    className=' mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#35bd5a] text-white  tracking-wider rounded-xl'>
+                    className=' mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#1b74e4] text-white  tracking-wider rounded-xl'>
                   
                   {loading ? (
               <svg
