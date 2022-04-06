@@ -13,7 +13,7 @@ Having your motorbike stolen can be <b>financially and emotionally stressful.</b
 <br><br>
 Your lock only delays the thief. It doesn't make your motorbike <b>completely secure.</b>
         <br><br>
-GripLock is a new anti-theft device to help make motorbikes <b>totally theft-proof.</b> It secures the motorbike's handlebar and brake handle using a special locking system, which <b>prevents thieves from being able to ride away on your motorbike.</b> "
+CapsLock is a new anti-theft device to help make motorbikes <b>totally theft-proof.</b> It secures the motorbike's handlebar and brake handle using a special locking system, which <b>prevents thieves from being able to ride away on your motorbike.</b> "
       />
 
       <DescriptionGauche
@@ -23,7 +23,7 @@ GripLock is a new anti-theft device to help make motorbikes <b>totally theft-pro
         texte="
 Your motorbike handlebar and brake handle aren't as safe as they should be because <b>thieves can get to them with just a screwdriver.</b> 
 <br><br>
-Protect your motorbike in seconds with GripLock, the revolutionary new security lock.
+Protect your motorbike in seconds with CapsLock, the revolutionary new security lock.
 "
       />
 
@@ -36,7 +36,7 @@ motorbikes, motorbikes and mopeds are <b>prone to theft.</b>
 <br><br>
 Many people don't lock their motorbike or motorbike while they're parked. <b>Thieves know this</b> and they look for the bikes that haven't got any visible security locks.
      <br><br>   
-The GripLock is a big,<b> heavy-duty security lock with an anti-theft mechanism.</b> Once you've fitted it on your bike, <b>you can forget about security worries</b> and make a beeline for the open road."
+The CapsLock is a big,<b> heavy-duty security lock with an anti-theft mechanism.</b> Once you've fitted it on your bike, <b>you can forget about security worries</b> and make a beeline for the open road."
       />
 
       <DescriptionGauche
@@ -46,9 +46,9 @@ The GripLock is a big,<b> heavy-duty security lock with an anti-theft mechanism.
         texte="
 Looking for a <b>high-quality and reliable safety device</b>, which also needs to be easy to transport?
 <br><br>
-It doesn’t need to be that difficult. <b>You’ve found it: Griplock </b>– the compact and easy-to-use security lock for motorbikes and motorbikes.
+It doesn’t need to be that difficult. <b>You’ve found it: Capslock </b>– the compact and easy-to-use security lock for motorbikes and motorbikes.
         <br><br>
-The latest generation of Griplock is not just large enough to provide you with protection, but small enough to <b>keep your motorbike from being stolen.</b> A high-quality lock with four individual keys, that can be attached and detached in just seconds – no matter if you’re already on the motorbike or still grabbing your helmet."
+The latest generation of Capslock is not just large enough to provide you with protection, but small enough to <b>keep your motorbike from being stolen.</b> A high-quality lock with four individual keys, that can be attached and detached in just seconds – no matter if you’re already on the motorbike or still grabbing your helmet."
       />
     </section>
   );
