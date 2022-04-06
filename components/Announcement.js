@@ -9,7 +9,7 @@ export default function Announcement() {
                 className='w-[25px] lg:static absolute left-2'
               />
               
-               <div className="lg:pl-0 pl-6" >You came here from <strong className="text-primary">Facebook</strong>, congrats. You win a <strong className="text-primary">50% OFF special discount limited time </strong>
+               <div className="lg:pl-0 pl-6" >You came here from <strong className="text-primary">Facebook</strong>, congrats. You win a <strong className="text-primary">50% OFF special discount</strong> for a <strong className="text-primary"></strong>limited time </strong>
               </div>
     </section>
   );
