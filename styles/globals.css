@@ -169,3 +169,72 @@ a {
     
     border: 2px solid #1f1f1f;
 }
+
+
+@-webkit-keyframes shake {
+	from,
+	to {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	}
+  
+	10%,
+	30%,
+	50% {
+	  -webkit-transform: translate3d(-10px, 0, 0);
+	  transform: translate3d(-10px, 0, 0);
+	}
+  
+	20%,
+	40% {
+	  -webkit-transform: translate3d(10px, 0, 0);
+	  transform: translate3d(10px, 0, 0);
+	}
+	60% {
+	  transform: translate(0, 0);
+	}
+	100% {
+	  transform: translate(0, 0);
+	}
+  
+  }
+  
+  @keyframes shake {
+	from,
+	to {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	}
+  
+	10%,
+	20%,
+	30% {
+	  -webkit-transform: translate3d(-3px, 0, 0);
+	  transform: translate3d(-3px, 0, 0);
+	}
+  
+	15%,
+	35% {
+	  -webkit-transform: translate3d(3px, 0, 0);
+	  transform: translate3d(3px, 0, 0);
+	}
+	40% {
+	  transform: translate(0, 0);
+	}
+	100% {
+	  transform: translate(0, 0);
+	}
+  }
+  
+  .shake {
+	-webkit-animation-name: shake;
+	animation-name: shake;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  }

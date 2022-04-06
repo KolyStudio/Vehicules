@@ -18,7 +18,7 @@ export const produit = {
   argument1: "Secure your motorcycle in one click",
   argument2: "Resistant to all breakage attempts",
   argument3: "Find your motorbike when you come back",
-  argument4: "10 seconds to save your bike",
+  argument4: "10 seconds to save your motorbike",
   argument5: "No more stress",
   argument6: "For all types of steering wheels",
 };
