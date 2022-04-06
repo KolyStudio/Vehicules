@@ -371,7 +371,13 @@ console.log(link);
         <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[80%] tracking-wider'>
         
         <h3 className="text-center">
-           You came from <strong className="text-[#1b74e4]">Facebook </strong> ? Congrats. You win a <strong className="text-[#1b74e4]">limited time</strong> special discount.
+           You came from <strong className="text-[#1b74e4]">Facebook </strong> ? Congrats. You win a <strong className="text-[#1b74e4]">limited time {quantity == 1 ? (
+              <span>50% </span>
+            ) : quantity == 2 ? (
+              <span>63% </span>
+            ) : (
+              <span>68% </span>
+            )} OFF </strong> special discount until <strong className="text-[#1b74e4]">07 April</strong>
         </h3>
       </section>
 
