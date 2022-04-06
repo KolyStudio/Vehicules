@@ -120,9 +120,9 @@ console.log(link);
           </span>
         </article>
 
-        <section className='pt-3 text-[15px] lg:w-4/5 '>
+        {/* <section className='pt-3 text-[15px] lg:w-4/5 '>
         {ReactHtmlParser(produit.description)}
-        </section>  
+        </section>   */}
 {/* 
 <section className=' flex  lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm lg:m-0 md:w-3/5 lg:w-[80%]   tracking-wider'>
 <img
@@ -345,10 +345,13 @@ console.log(link);
         </section>
 
         <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
-        
-        <h3 className="text-center">
-          <strong className="text-primary"> Warning!</strong> They are only <strong className="text-primary">7 </strong>
-          sales left at <strong className="text-primary">50% OFF</strong>
+        <img
+                alt='produit.price'
+                src='icons/fb.svg'
+                className='w-[25px]  '
+              />
+        <h3 className="">
+           Your special <strong className="text-primary">50% OFF discount </strong>is applied  until <strong className="text-primary">06 April</strong>
         </h3>
       </section>
 
@@ -366,7 +369,7 @@ console.log(link);
             
           </span>
         </article></div>
-        <div>&quot;I bought it for my motorcycle because I was robbed when it was parked on the street. It&apos;s a very nice solution, well made, easy to install, my stress is out now.&quot; </div>
+        <div>&quot;I was the victim of an attempted theft of my motorcycle. The thieves wanted to transport it by lifting it. CapLock was a real problem for them, and deterred the theft. Top product, I recommend it.</div>
       </section>
 
         

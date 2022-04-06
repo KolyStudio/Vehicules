@@ -4,7 +4,7 @@ export default function Assets() {
   const questions = [
     {
       id: 1,
-      title: "Free Delivery in 4 to 7 working days",
+      title: "Free Delivery in 4 to 7 days",
       content:
         "We process each order as quickly as possible while maintaining the strictest quality control.",
       icon: "icons/delivery.svg",

@@ -3,7 +3,7 @@ import { useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 export default function Reviews() {
-  const [reviewsNumber, setreviewsNumber] = useState(10);
+  const [reviewsNumber, setreviewsNumber] = useState(20);
 
   return (
     <>
