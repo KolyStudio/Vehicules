@@ -344,7 +344,7 @@ console.log(link);
           </button>
         </section>
 
-        <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
+        <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
         <img
                 alt='produit.price'
                 src='icons/fb.svg'
