@@ -120,10 +120,19 @@ console.log(link);
           </span>
         </article>
 
-         <section className='pt-3 text-[15px] lg:w-4/5 '>
+         {/* <section className='pt-3 text-[15px] lg:w-4/5 '>
         {ReactHtmlParser(produit.description)}
-        </section> 
+        </section>  */}
 
+<section className=' flex  lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm lg:m-0 md:w-3/5 lg:w-[80%]   tracking-wider'>
+<img
+                alt='produit.price'
+                src='icons/fb.svg'
+                className='w-[25px]'
+              />
+  
+  <div >You came here from <strong className="text-primary">Facebook</strong> ? Congrats. We applied a <strong className="text-primary">limited time special discount</strong> for you.
+  </div></section>
         <div className='text-[#11172b] font-semibold mt-2'>Why get CapsLock ?</div>
 
          <section className='mb-2 flex space-x-5 pb-3'>
