@@ -362,7 +362,7 @@ console.log(link);
             
           </span>
         </article></div>
-        <div>"I bought it for my motorcycle because I was robbed when it was parked on the street. It&apos;s a very nice solution, well made, easy to install, my stress is out now."</div>
+        <div>&quot;I bought it for my motorcycle because I was robbed when it was parked on the street. It&apos;s a very nice solution, well made, easy to install, my stress is out now.&quot;</div>
       </section>
 
         
