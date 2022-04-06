@@ -369,7 +369,7 @@ console.log(link);
             
           </span>
         </article></div>
-        <div>&quot;I was the victim of an attempted theft of my motorcycle. The thieves wanted to transport it by lifting it. CapLock was a real problem for them, and deterred the theft. Top product, I recommend it.</div>
+        <div>&quot;I was the victim of an attempted theft of my motorcycle. The thieves wanted to transport it by lifting it. CapLock was a real problem for them, and deterred the theft. Top product, I recommend it.&quot;</div>
       </section>
 
         
