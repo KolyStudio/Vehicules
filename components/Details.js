@@ -339,7 +339,7 @@ console.log(link);
         <section className=' md:m-auto lg:m-0'>
           <button
             onClick={AddToCart}
-            className='shake mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#45bd62] text-white  tracking-wider rounded-xl'>
+            className=' mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#45bd62] text-white  tracking-wider rounded-xl'>
             {loading ? (
               <svg
                 className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
@@ -366,7 +366,7 @@ console.log(link);
           </button>
         </section>
 
-        <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
+        {/* <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
         <img
                 alt='produit.price'
                 src='icons/fb.svg'
@@ -375,7 +375,7 @@ console.log(link);
         <h3 className="">
            Your special <strong className="text-primary">50% OFF discount </strong>is applied for <strong className="text-primary">{hours}h {minutes}m {seconds}s</strong>
         </h3>
-      </section>
+      </section> */}
 
       
 
@@ -406,7 +406,7 @@ console.log(link);
                 <div className=' lg:hidden w-[90%] m-auto fixed bottom-0 left-0 right-0 pb-2 z-[2]'>
                   <button
                  onClick={AddToCart}
-                    className='shake  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#45bd62] text-white  tracking-wider rounded-xl'>
+                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#45bd62] text-white  tracking-wider rounded-xl'>
                   
                   {loading ? (
               <svg
