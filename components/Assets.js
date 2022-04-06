@@ -54,10 +54,10 @@ export default function Assets() {
         />
       </section>
 
-      <section className='flex items-center justify-center space-x-1 text-sm lg:w-[80%] pb-2'>
+      {/* <section className='flex items-center justify-center space-x-1 text-sm lg:w-[80%] pb-2'>
         <img src='/icons/lock.svg' alt='lock' />
         <h3>Secure payments with our partners</h3>
-      </section>
+      </section> */}
 
        
 
