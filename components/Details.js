@@ -230,6 +230,7 @@ console.log(link);
         </section>
 
         <section className='mt-1  flex flex-col space-y-1   md:m-auto lg:m-0 '>
+          
           <article
             onClick={() => quantityPicker(1)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
@@ -238,21 +239,9 @@ console.log(link);
               <div className='flex items-center justify-between'>
             {quantity == 1 ? (
 
-              <div className=''>
-                <img
-                  alt='greencheck'
-                  src='icons/greencheck.svg'
-                  className='m-auto w-[25px] rounded-full border-[3px] border-primary '
-                />
-              </div>
+<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-400'></div>
             ) : (
-              <div className=''>
-                <img
-                  alt='greencheck'
-                  src='icons/greencheckgrey.svg'
-                  className='m-auto w-[25px] rounded-full border-grey-500 '
-                />
-              </div>
+              <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
              <div className='font-semibold w-full text-left pl-3'>1 x CapsLock™ <br></br>= £{(produit.price / 1).toFixed(2)} each</div>
 
@@ -274,21 +263,9 @@ console.log(link);
               {/* <div className='absolute top-0 left-[35px] text-sm font-medium animate-pulse'>BEST SELLER</div> */}
             {quantity == 2 ? (
 
-              <div className=''>
-                <img
-                  alt='greencheck'
-                  src='icons/greencheck.svg'
-                  className='m-auto w-[25px] rounded-full border-[3px] border-primary '
-                />
-              </div>
+<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-400'></div>
             ) : (
-              <div className=''>
-                <img
-                  alt='greencheck'
-                  src='icons/greencheckgrey.svg'
-                  className='m-auto w-[25px] rounded-full border-[0px] border-grey-500 '
-                />
-              </div>
+              <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
              <div className='font-semibold w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF <br></br>= £{(((produit.price * 1.5) ) / 2).toFixed(2)} each</div>
             <div className='flex flex-col'>
@@ -309,21 +286,11 @@ console.log(link);
               <div className='flex items-center justify-between'>
             {quantity == 3 ? (
 
-              <div className=''>
-                <img
-                  alt='greencheck'
-                  src='icons/greencheck.svg'
-                  className='m-auto w-[25px] rounded-full border-[3px] border-primary'
-                />
+              <div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-400'>
+               
               </div>
             ) : (
-              <div className=''>
-                <img
-                  alt='greencheck'
-                  src='icons/greencheckgrey.svg'
-                  className='m-auto w-[25px] rounded-full border-grey-500 '
-                />
-              </div>
+              <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
             <div className='font-semibold w-full text-left pl-3'>2 x CapsLock™ + 3rd Free <br></br>= £{(((produit.price * 2)) / 3).toFixed(2)} each</div>
 
@@ -385,7 +352,7 @@ console.log(link);
 
         <section className='mt-5 space-x-2 rounded-lg  p-1 bg-[#eef2fd]  lg:w-[90%]  text-sm md:mx-auto'>
         
-      <div className='flex items-center justify-between px-2'><div><b>Frank C. -</b> <span className="text-sm">Verified Buyer</span></div> <article className='flex space-x-1 py-1'>
+      <div className='flex items-center justify-between px-2'><div><b>- Frank C. -</b> <span className="text-sm">Verified Buyer</span></div> <article className='flex space-x-1 py-1'>
           <div className='flex items-center space-x-0.5 '>
             
             <img src='/icons/star.svg' alt='star' className='w-[14px]' />
@@ -395,7 +362,7 @@ console.log(link);
             
           </span>
         </article></div>
-        <div>I bought it for my motorcycle because I was robbed when it was parked on the street. It&apos;s a very nice solution, well made, easy to install, my stress is out now.</div>
+        <div>"I bought it for my motorcycle because I was robbed when it was parked on the street. It&apos;s a very nice solution, well made, easy to install, my stress is out now."</div>
       </section>
 
         
