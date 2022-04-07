@@ -5,7 +5,7 @@ import Head from "next/head";
 import Script from 'next/script'
 import { site } from "../components/config";
 import * as ga from "../utils/ga";
-
+import { hotjar } from 'react-hotjar'
 import { useRouter } from "next/router";
 function MyApp({ Component, pageProps }) {
 
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
   });
   const router = useRouter();
   useEffect(() => {
-
+    hotjar.initialize(2913702, 6)
 
     const handleRouteChange = (url) => {
       ga.pageview(url);

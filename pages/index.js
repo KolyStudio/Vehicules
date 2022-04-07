@@ -8,7 +8,7 @@ import Layout from "../components/Layout";
 import Reviews from "../components/Reviews";
 import SEO from "../components/Seo";
 import { site, produit } from "../components/config";
-
+import Head from "next/head";
 export default function Home() {
 
   const pageTitle = `${produit.name} | ${site.nom}`;
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <SEO title={pageTitle} />
-
+     
       <section className='justify-center lg:flex lg:space-x-[30px] lg:px-2 xl:space-x-[40px]'>
         <ImageProduit />
         <Details />
