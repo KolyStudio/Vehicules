@@ -400,6 +400,9 @@ console.log(link);
             )}</div>
           </button>
         </section>
+        <section className=' text-sm lg:m-auto text-center mt-4 lg:mt-4 md:mt-4 justify-center rounded-lg bg-[#efefef]   p-1 py-1  md:w-3/5 lg:w-[80%] w-[80%]  m-auto  tracking-wider'>
+          They are only <b>7</b> sales left at <b>-50%</b>
+        </section>
 
 
 
