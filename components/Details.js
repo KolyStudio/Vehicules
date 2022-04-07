@@ -343,6 +343,19 @@ console.log(link);
           </article>
 
         </section>
+
+        <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
+        <img
+                alt='produit.price'
+                src='icons/fb.svg'
+                className='w-[25px]  '
+              />
+        <h3 className="">
+           We have applied a <strong className="text-[#1b74e4]"> 50% OFF discount coupon (FB67K5UE)</strong> instead of 30% OFF, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">07 April.</strong>
+        </h3>
+      </section> 
+
+       
         <section className=' md:m-auto lg:m-0'>
           <button
             onClick={AddToCart}
@@ -369,20 +382,11 @@ console.log(link);
               ""
             )}
 
-            <div>ADD TO CART</div>
+            <div>Claim Your Limited-Time Discount</div>
           </button>
         </section>
 
-       <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
-        <img
-                alt='produit.price'
-                src='icons/fb.svg'
-                className='w-[25px]  '
-              />
-        <h3 className="">
-           We have applied a <strong className="text-[#1b74e4]"> 50% OFF discount coupon (FB67K5UE)</strong> instead of 30% OFF, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">07 April.</strong>
-        </h3>
-      </section> 
+       
 
       
 
@@ -430,7 +434,7 @@ console.log(link);
               ""
             )}
 
-            <div>ADD TO CART</div>
+            <div>Claim Your Limited-Time Discount</div>
                   </button>
                 </div>
               ) : null}
