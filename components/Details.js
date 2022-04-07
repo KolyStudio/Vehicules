@@ -298,7 +298,7 @@ console.log(link);
           <article
             onClick={() => quantityPicker(2)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 2 ? "bg-[#eef2fd] border-[#f58523] text-[#f58523]" : ""
+              quantity == 2 ? "bg-[#eef2fd] border-primary text-black" : ""
             }`}>
               <div className='flex items-center justify-between'>
               {/* <div className='absolute top-0 left-[35px] text-sm font-medium animate-pulse'>BEST SELLER</div> */}
@@ -337,7 +337,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 3 ? "text-primary" : "text-primary"}`}>£{(produit.price * 2).toFixed(2)}</span>
+              quantity == 3 ? "text-[#f58523]" : "text-[#f58523]"}`}>£{(produit.price * 2).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'> £{(produit.price * 2 * 3).toFixed(2)}</span>
               </div>
 
