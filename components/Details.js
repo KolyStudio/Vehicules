@@ -112,7 +112,7 @@ console.log(link);
         </article>
 
         <article className='flex items-center space-x-1 py-2'>
-          <span className='text-xl font-semibold text-[#f58523]'>
+          <span className='text-xl font-semibold text-[#35bd5a]'>
             {quantity == 1 ? (
               <h3>£{produit.price.toFixed(2)}</h3>
             ) : quantity == 2 ? (
@@ -142,9 +142,70 @@ console.log(link);
           </span>
         </article>
 
-         <section className='py-3 text-[15px] lg:w-4/5 '>
+         <section className='pt-3 text-[15px] lg:w-4/5 '>
         {ReactHtmlParser(produit.description)}
         </section>  
+
+       
+      <div className='text-[#11172b] font-semibold mt-2'>Why get CapsLock ?</div>
+
+<section className='mb-2 flex space-x-5 pb-3'>
+ <article>
+   <div className='flex space-x-2 border-b py-1'>
+     <img
+       alt='produit.price'
+       src='icons/checktest.svg'
+       className='w-[14px]'
+     />
+     <h3>{produit.argument1}</h3>
+   </div>
+   <div className='flex space-x-2 border-b py-1'>
+     <img
+       alt='produit.price'
+       src='icons/checktest.svg'
+       className='w-[14px]'
+     />
+     <h3>{produit.argument2}</h3>
+   </div>
+   <div className='flex space-x-2 border-b py-1'>
+     <img
+       alt='produit.price'
+       src='icons/checktest.svg'
+       className='w-[14px]'
+     />
+     <h3>{produit.argument3}</h3>
+   </div>
+   <div className='flex space-x-2 border-b py-1'>
+     <img
+       alt='produit.price'
+       src='icons/checktest.svg'
+       className='w-[14px]'
+     />
+     <h3>{produit.argument4}</h3>
+   </div>
+   <div className='flex space-x-2 border-b py-1'>
+     <img
+       alt='produit.price'
+       src='icons/checktest.svg'
+       className='w-[14px]'
+     />
+     <h3>{produit.argument5}</h3>
+   </div>
+   <div className='flex space-x-2 py-1'>
+     <img
+       alt='produit.price'
+       src='icons/checktest.svg'
+       className='w-[14px]'
+     />
+     <h3>{produit.argument6}</h3>
+   </div>
+ </article>
+
+</section>
+
+
+
+
 {/* 
 <section className=' flex  lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm lg:m-0 md:w-3/5 lg:w-[80%]   tracking-wider'>
 <img
@@ -224,7 +285,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-bold ${
-              quantity == 1 ? "border-black  text-[#f58523]" : "text-[#f58523]"}`}>£{produit.price.toFixed(2)}</span>
+              quantity == 1 ? "border-black  text-[#35bd5a]" : "text-[#35bd5a]"}`}>£{produit.price.toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2).toFixed(2)}</span>
               </div>
              </div>
@@ -247,7 +308,7 @@ console.log(link);
              <div className='font-semibold w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF <br></br>= £{(((produit.price * 1.5) ) / 2).toFixed(2)} each</div>
             <div className='flex flex-col'>
               <span className={` font-bold ${
-              quantity == 2 ? " text-[#f58523]" : "text-[#f58523]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
+              quantity == 2 ? " text-[#35bd5a]" : "text-[#35bd5a]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2 * 2).toFixed(2)}</span>
               </div>
               <div className='absolute bottom-0 left-[35px] text-sm font-medium'></div>
@@ -273,7 +334,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-bold ${
-              quantity == 3 ? "text-[#f58523]" : "text-[#f58523]"}`}>£{(produit.price * 2).toFixed(2)}</span>
+              quantity == 3 ? "text-[#35bd5a]" : "text-[#35bd5a]"}`}>£{(produit.price * 2).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'> £{(produit.price * 2 * 3).toFixed(2)}</span>
               </div>
 

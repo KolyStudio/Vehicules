@@ -58,63 +58,6 @@ export default function Assets() {
         <img src='/icons/lock.svg' alt='lock' />
         <h3>Secure payments with our partners</h3>
       </section> 
-<div className="w-[90%] m-auto">
-      <div className='text-[#11172b] font-semibold mt-2'>Why get CapsLock ?</div>
-
-<section className='mb-2 flex space-x-5 pb-3'>
- <article>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument1}</h3>
-   </div>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument2}</h3>
-   </div>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument3}</h3>
-   </div>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument4}</h3>
-   </div>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument5}</h3>
-   </div>
-   <div className='flex space-x-2 py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument6}</h3>
-   </div>
- </article>
-
-</section>
-</div>
 
       <section className='mt-5  border-y-[1px] p-2 py-3 md:mx-auto md:w-3/5 lg:mx-0 lg:w-[80%]'>
         {questions.map((item, index) => {

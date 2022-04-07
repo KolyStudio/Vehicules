@@ -5,7 +5,7 @@ export const site = {
   fb_pixel: "496114882168181",
   ga_pixel: "G-PX8B89E9G",
   checkoutx: "https://secure.cincar.co/f/Y9NHD36G/b/",
-  offre: "WINTER SALES: ENJOY 50% OFF UNTIL 06 APRIL",
+  offre: "WINTER SALES: ENJOY 50% OFF & FREE DELIVERY",
 };
 
 export const produit = {
