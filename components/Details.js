@@ -92,11 +92,11 @@ console.log(link);
     <section className='z-0 w-[100%] '>
       <div className='lg:w-[70%]'>
       <article className='p-4 lg:max-w-[800px] lg:min-w-[600px] lg:pt-10 '>
-         <h2 className='w-[150px] animate-pulse flex items-center  text-sm font-medium text-gray-500 '>
+         {/* <h2 className='w-[150px] animate-pulse flex items-center  text-sm font-medium text-gray-500 '>
           BEST SELLER IN UK <span className="block lg:hidden pl-1">🇬🇧</span>
-        </h2>
+        </h2> */}
 
-        <h1 className='text-[22px] text-[#1e161e] font-semibold '>{produit.name}</h1>
+        <h1 className='text-[22px]  font-semibold '>{produit.name}</h1>
 
         <article className='flex space-x-1 py-1'>
           <div className='flex items-center space-x-0.5'>
@@ -147,9 +147,9 @@ console.log(link);
 
          <section className='pt-3 text-[15px] lg:w-4/5 '>
         {ReactHtmlParser(produit.description)}
-        </section>  
+        </section>
 
-       
+
       <div className='text-[#11172b] font-semibold mt-2'>Why get CapsLock ?</div>
 
 <section className='mb-2 flex space-x-5 pb-3 font-medium'>
@@ -209,21 +209,21 @@ console.log(link);
 
 
 
-{/* 
+{/*
 <section className=' flex  lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm lg:m-0 md:w-3/5 lg:w-[80%]   tracking-wider'>
 <img
                 alt='produit.price'
                 src='icons/fb.svg'
                 className='w-[25px]'
               />
-  
+
   <div >You came here from <strong className="text-primary">Facebook</strong> ? Congrats. We applied a <strong className="text-primary">limited time special discount</strong> for you.
   </div></section> */}
-        
+
 
 <div className='border rounded-xl p-3 lg:w-[80%] w-full'>
 <section className='flex space-x-1 py-2  pb-2 text-sm font-medium uppercase md:w-3/5 md:m-auto lg:m-0'>
-          
+
           <span>
             1. Color |
             {variante == 26 ? (
@@ -247,7 +247,7 @@ console.log(link);
             }`}
 
           >Orange</article>
-          
+
           <article  onClick={() => variantePicker(28)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
               variante == 28 ? "bg-primary text-white" : "bg-[#f6f6f6] text-black"
             }`}>Red</article>
@@ -257,7 +257,7 @@ console.log(link);
         </section>
 
         <section className='flex space-x-1 py-2  pb-2 text-sm font-medium uppercase md:w-3/5 md:m-auto lg:m-0'>
-        
+
           <span>
             2. Pack |
             {quantity == 1 ? (
@@ -271,7 +271,7 @@ console.log(link);
         </section>
 
         <section className='mt-1  flex flex-col space-y-1   md:m-auto lg:m-0 '>
-          
+
           <article
             onClick={() => quantityPicker(1)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
@@ -328,8 +328,8 @@ console.log(link);
             {quantity == 3 ? (
 
 <div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-gray-300'></div>
-               
-              
+
+
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
@@ -347,7 +347,7 @@ console.log(link);
 
         </section>
 
-        <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
+        {/* <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
         <img
                 alt='produit.price'
                 src='icons/fb.svg'
@@ -362,9 +362,9 @@ console.log(link);
               <span>68% </span>
             )} OFF discount coupon (FB67K5UE)</strong> instead of 30% OFF, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">{date}.</strong>
         </h3>
-      </section> 
+      </section>  */}
 
-       
+
         <section className=' md:m-auto lg:m-0'>
           <button
             onClick={AddToCart}
@@ -401,32 +401,33 @@ console.log(link);
           </button>
         </section>
 
-       
 
-      
 
-        <section className='mt-5 space-x-2 rounded-lg  p-1 bg-[#eef2fd]  lg:w-[90%]  text-sm md:mx-auto'>
-        
+
+
+
+        {/* <section className='mt-5 space-x-2 rounded-lg  p-1 bg-[#eef2fd]  lg:w-[90%]  text-sm md:mx-auto'>
+
       <div className='flex items-center justify-between px-2'><div><b>- Frank C. -</b> <span className="text-sm">Verified Buyer</span>  </div> <article className='flex space-x-1'>
-     <span>5</span>   <img src='/icons/star.svg' alt='star' className='w-[14px]' /> 
+     <span>5</span>   <img src='/icons/star.svg' alt='star' className='w-[14px]' />
         </article></div>
         <div className="pt-1">&quot;I was the victim of an attempted theft of my motorcycle. The thieves wanted to transport it by lifting it. CapsLock was a real problem for them, and deterred the theft. Top product, I recommend it.&quot;</div>
-      </section>
+      </section> */}
 
-        
+
 
         </div>
         <Assets />
       </article>
-      </div> 
-      
-      
+      </div>
+
+
       {isVisible ? (
                 <div className=' lg:hidden  m-auto fixed bottom-0 left-0 right-0 z-[2]'>
                   <button
                  onClick={AddToCart}
                     className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#35bd5a] text-white  tracking-wider'>
-                  
+
                   {loading ? (
               <svg
                 className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
@@ -459,11 +460,11 @@ console.log(link);
                   </button>
                 </div>
               ) : null}
-      
-      
-      
+
+
+
       </section>
 
-      
+
   );
 }

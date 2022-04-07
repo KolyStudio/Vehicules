@@ -54,10 +54,10 @@ export default function Assets() {
         />
       </section>
 
-       <section className='flex items-center justify-center space-x-1 text-sm lg:w-[80%] pb-2'>
+       {/* <section className='flex items-center justify-center space-x-1 text-sm lg:w-[80%] pb-2'>
         <img src='/icons/lock.svg' alt='lock' />
         <h3>Secure payments with our partners</h3>
-      </section> 
+      </section>  */}
 
       <section className='mt-5  border-y-[1px] p-2 py-3 md:mx-auto md:w-3/5 lg:mx-0 lg:w-[80%]'>
         {questions.map((item, index) => {

@@ -8,11 +8,11 @@ export default function DescriptionDroite({image, titre, titrebg, texte}) {
           <img
             alt='imgproduit'
             src={image}
-            className='m-auto w-[510px] rounded-[50px] border-[10px] border-[#FBEDE2]'
+            className='m-auto w-[510px] rounded-[50px] '
           />
         </article>
         <article className='w-full space-y-4 lg:pr-10'>
-          <h1 className='text-2xl font-bold lg:text-3xl text-primary'>
+          <h1 className='text-2xl font-bold lg:text-3xl '>
             {titre} {titrebg}
             <span className='rotate-180 text-white px-2 py-1 '>
               
