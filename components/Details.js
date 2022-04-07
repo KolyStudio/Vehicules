@@ -388,7 +388,13 @@ console.log(link);
               ""
             )}
 
-            <div>ADD TO CART</div>
+            <div>ADD TO CART - {quantity == 1 ? (
+              <>£{produit.price.toFixed(2)}</>
+            ) : quantity == 2 ? (
+              <>£{(produit.price * 1.5).toFixed(2)}</>
+            ) : (
+              <>£{(produit.price * 2).toFixed(2)}</>
+            )}</div>
           </button>
         </section>
 
@@ -413,10 +419,10 @@ console.log(link);
       
       
       {isVisible ? (
-                <div className=' lg:hidden w-[90%] m-auto fixed bottom-0 left-0 right-0 pb-2 z-[2]'>
+                <div className=' lg:hidden  m-auto fixed bottom-0 left-0 right-0 z-[2]'>
                   <button
                  onClick={AddToCart}
-                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#35bd5a] text-white  tracking-wider rounded-xl'>
+                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#35bd5a] text-white  tracking-wider'>
                   
                   {loading ? (
               <svg
@@ -440,7 +446,13 @@ console.log(link);
               ""
             )}
 
-            <div>ADD TO CART</div>
+<div>ADD TO CART - {quantity == 1 ? (
+              <>£{produit.price.toFixed(2)}</>
+            ) : quantity == 2 ? (
+              <>£{(produit.price * 1.5).toFixed(2)}</>
+            ) : (
+              <>£{(produit.price * 2).toFixed(2)}</>
+            )}</div>
                   </button>
                 </div>
               ) : null}
