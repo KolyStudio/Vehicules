@@ -380,7 +380,7 @@ console.log(link);
                 className='w-[25px]  '
               />
         <h3 className="">
-           Congrats, a private<strong className="text-primary"> 50% OFF discount has been applied</strong>, because you came from <strong className="text-primary">Facebook </strong>. Valid until <strong className="text-primary">07 April.</strong>
+           Congrats, a private<strong className="text-primary"> 50% OFF discount has been applied</strong>, because you came from <strong className="text-primary">Facebook</strong>. Valid until <strong className="text-primary">07 April.</strong>
         </h3>
       </section> 
 
@@ -413,7 +413,7 @@ console.log(link);
                 <div className=' lg:hidden w-[90%] m-auto fixed bottom-0 left-0 right-0 pb-2 z-[2]'>
                   <button
                  onClick={AddToCart}
-                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#2e5fdd;] text-white  tracking-wider rounded-xl'>
+                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-[#2e5fdd] text-white  tracking-wider rounded-xl'>
                   
                   {loading ? (
               <svg
