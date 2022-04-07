@@ -10,7 +10,7 @@ export const site = {
 
 export const produit = {
   name: "CapsLock™ - Motorbike anti-theft",
-  price: 22.90,
+  price: 19.90,
   id: 13,
   review: 236,
   note: 4.8,
