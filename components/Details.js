@@ -380,7 +380,7 @@ console.log(link);
                 className='w-[25px]  '
               />
         <h3 className="">
-           You have unlocked a private<strong className="text-[#1b74e4]"> 50% OFF discount has been applied</strong>, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">07 April.</strong>
+           We have applied a <strong className="text-[#1b74e4]"> 50% OFF discount coupon</strong>, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">07 April.</strong>
         </h3>
       </section> 
 
