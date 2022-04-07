@@ -21,7 +21,7 @@ export default function Reviews() {
             <img src='/icons/star.svg' alt='star' className='w-[17px]' />
             <img src='/icons/star.svg' alt='star' className='w-[17px]' />
             <img src='/icons/star.svg' alt='star' className='w-[17px]' />
-            <img src='/icons/stargray.svg' alt='star' className='w-[17px]' />
+            <img src='/icons/halfstar.svg' alt='star' className='w-[17px]' />
           </div>
         </article>
         <section className='w-full'>
