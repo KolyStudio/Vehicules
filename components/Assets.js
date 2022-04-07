@@ -33,24 +33,24 @@ export default function Assets() {
     <>
       <section className=' flex justify-center space-x-4 py-1 pt-2 lg:w-[80%]'>
         <img
-          src='/payments/visa.png'
+          src='/payments/visa.svg'
           alt='visa'
-          className='h-[15px] w-[42px]'
+          className=''
         />
         <img
-          src='/payments/mastercard.png'
+          src='/payments/mc.svg'
           alt='mastercard'
-          className='h-[15px] w-[25px]'
+          className=''
         />
         <img
-          src='/payments/amex.png'
+          src='/payments/amex.svg'
           alt='amex'
-          className='h-[15px] w-[33px]'
+          className=''
         />
         <img
-          src='/payments/paypal.png'
+          src='/payments/paypal.svg'
           alt='paypal'
-          className='h-[15px] w-[57px]'
+          className=''
         />
       </section>
 

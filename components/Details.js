@@ -101,7 +101,7 @@ console.log(link);
             <img src='/icons/star.svg' alt='star' className='w-[17px]' />
             <img src='/icons/star.svg' alt='star' className='w-[17px]' />
             <img src='/icons/star.svg' alt='star' className='w-[17px]' />
-            <img src='/icons/halfstar.svg' alt='star' className='w-[17px]' />
+            <img src='/icons/stargray.svg' alt='star' className='w-[17px]' />
           </div>
           <span className='pt-1 font-medium'>
             {produit.note}
@@ -112,7 +112,7 @@ console.log(link);
         </article>
 
         <article className='flex items-center space-x-1 py-2'>
-          <span className='text-xl font-semibold text-[#2e5fdd]'>
+          <span className='text-xl font-medium text-black'>
             {quantity == 1 ? (
               <h3>£{produit.price.toFixed(2)}</h3>
             ) : quantity == 2 ? (
@@ -277,14 +277,14 @@ console.log(link);
               <div className='flex items-center justify-between'>
             {quantity == 1 ? (
 
-<div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-blue-300'></div>
+<div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-gray-300'></div>
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
              <div className='font-semibold w-full text-left pl-3'>1 x CapsLock™ <br></br>= £{(produit.price / 1).toFixed(2)} each</div>
 
             <div className='flex flex-col'>
-              <span className={` font-bold ${
+              <span className={` font-medium ${
               quantity == 1 ? "border-black  text-primary" : "text-primary"}`}>£{produit.price.toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2).toFixed(2)}</span>
               </div>
@@ -301,13 +301,13 @@ console.log(link);
               {/* <div className='absolute top-0 left-[35px] text-sm font-medium animate-pulse'>BEST SELLER</div> */}
             {quantity == 2 ? (
 
-<div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-blue-300'></div>
+<div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-gray-300'></div>
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
              <div className='font-semibold w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF <br></br>= £{(((produit.price * 1.5) ) / 2).toFixed(2)} each</div>
             <div className='flex flex-col'>
-              <span className={` font-bold ${
+              <span className={` font-medium ${
               quantity == 2 ? " text-primary" : "text-primary"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2 * 2).toFixed(2)}</span>
               </div>
@@ -324,7 +324,7 @@ console.log(link);
               <div className='flex items-center justify-between'>
             {quantity == 3 ? (
 
-<div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-blue-300'></div>
+<div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-gray-300'></div>
                
               
             ) : (
@@ -333,7 +333,7 @@ console.log(link);
             <div className='font-semibold w-full text-left pl-3'>2 x CapsLock™ + 3rd Free <br></br>= £{(((produit.price * 2)) / 3).toFixed(2)} each</div>
 
             <div className='flex flex-col'>
-              <span className={` font-bold ${
+              <span className={` font-medium ${
               quantity == 3 ? "text-primary" : "text-primary"}`}>£{(produit.price * 2).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'> £{(produit.price * 2 * 3).toFixed(2)}</span>
               </div>
@@ -389,14 +389,7 @@ console.log(link);
         <section className='mt-5 space-x-2 rounded-lg  p-1 bg-[#eef2fd]  lg:w-[90%]  text-sm md:mx-auto'>
         
       <div className='flex items-center justify-between px-2'><div><b>- Frank C. -</b> <span className="text-sm">Verified Buyer</span></div> <article className='flex space-x-1 py-1'>
-          <div className='flex items-center space-x-0.5 '>
-            
-            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
-          </div>
-          <span className='font-medium'>
-            5
-            
-          </span>
+          
         </article></div>
         <div>&quot;I was the victim of an attempted theft of my motorcycle. The thieves wanted to transport it by lifting it. CapsLock was a real problem for them, and deterred the theft. Top product, I recommend it.&quot;</div>
       </section>
