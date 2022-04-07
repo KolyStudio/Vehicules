@@ -430,7 +430,7 @@ console.log(link);
               ""
             )}
 
-            <div>ADD TO CART</div>
+            <div>Claim Your Limited-Time Discount</div>
                   </button>
                 </div>
               ) : null}
