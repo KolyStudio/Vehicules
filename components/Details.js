@@ -112,7 +112,7 @@ console.log(link);
         </article>
 
         <article className='flex items-center space-x-1 py-2'>
-          <span className='text-xl font-medium text-black'>
+          <span className='text-xl font-medium text-[#1b74e4]'>
             {quantity == 1 ? (
               <h3>£{produit.price.toFixed(2)}</h3>
             ) : quantity == 2 ? (
@@ -380,7 +380,7 @@ console.log(link);
                 className='w-[25px]  '
               />
         <h3 className="">
-           We have applied a <strong className="text-[#1b74e4]"> 50% OFF discount coupon</strong>, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">07 April.</strong>
+           We have applied a <strong className="text-[#1b74e4]"> 50% OFF discount coupon</strong> instead of 30% OFF, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">07 April.</strong>
         </h3>
       </section> 
 
