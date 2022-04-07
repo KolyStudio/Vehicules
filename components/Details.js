@@ -7,9 +7,12 @@ import ReactHtmlParser from "react-html-parser";
 import {useEffect } from "react";
   import React from 'react';
   import { useTimer } from 'react-timer-hook';
-
+  import * as dayjs from 'dayjs'
 
 export default function Details() {
+
+  const date = dayjs().format('DD MMMM');
+  console.log(date);
 
   const time = new Date();
   const expiryTimestamp = time.setSeconds(time.getSeconds() + 3600);
@@ -357,7 +360,7 @@ console.log(link);
               <span>63% </span>
             ) : (
               <span>68% </span>
-            )} OFF discount coupon (FB67K5UE)</strong> instead of 30% OFF, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">07 April.</strong>
+            )} OFF discount coupon (FB67K5UE)</strong> instead of 30% OFF, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">{date}.</strong>
         </h3>
       </section> 
 
@@ -404,10 +407,10 @@ console.log(link);
 
         <section className='mt-5 space-x-2 rounded-lg  p-1 bg-[#eef2fd]  lg:w-[90%]  text-sm md:mx-auto'>
         
-      <div className='flex items-center justify-between px-2'><div><b>- Frank C. -</b> <span className="text-sm">Verified Buyer</span></div> <article className='flex space-x-1 py-1'>
-          
+      <div className='flex items-center justify-between px-2'><div><b>- Frank C. -</b> <span className="text-sm">Verified Buyer</span>  </div> <article className='flex space-x-1'>
+     <span>5</span>   <img src='/icons/star.svg' alt='star' className='w-[14px]' /> 
         </article></div>
-        <div>&quot;I was the victim of an attempted theft of my motorcycle. The thieves wanted to transport it by lifting it. CapsLock was a real problem for them, and deterred the theft. Top product, I recommend it.&quot;</div>
+        <div className="pt-1">&quot;I was the victim of an attempted theft of my motorcycle. The thieves wanted to transport it by lifting it. CapsLock was a real problem for them, and deterred the theft. Top product, I recommend it.&quot;</div>
       </section>
 
         
