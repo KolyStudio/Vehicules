@@ -351,7 +351,13 @@ console.log(link);
                 className='w-[25px]  '
               />
         <h3 className="">
-           We have applied a <strong className="text-[#1b74e4]"> 50% OFF discount coupon (FB67K5UE)</strong> instead of 30% OFF, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">07 April.</strong>
+           We have applied a <strong className="text-[#1b74e4]">  {quantity == 1 ? (
+              <span>50% </span>
+            ) : quantity == 2 ? (
+              <span>63% </span>
+            ) : (
+              <span>68% </span>
+            )} OFF discount coupon (FB67K5UE)</strong> instead of 30% OFF, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">07 April.</strong>
         </h3>
       </section> 
 
