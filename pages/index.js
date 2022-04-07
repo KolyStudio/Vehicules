@@ -9,10 +9,15 @@ import Reviews from "../components/Reviews";
 import SEO from "../components/Seo";
 import { site, produit } from "../components/config";
 import Head from "next/head";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 export default function Home() {
 
   const pageTitle = `${produit.name} | ${site.nom}`;
 
+  useEffect(() => {
+    hotjar.initialize(2913702, 6)
+  }, []);
   return (
     <>
       <SEO title={pageTitle} />
