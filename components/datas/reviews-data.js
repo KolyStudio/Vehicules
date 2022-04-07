@@ -1,37 +1,37 @@
 export const Reviewsdata = [
 	{
-		name: 'Abby C.',
+		name: 'Carlos C.',
 		photo: 'produits/reviews/review_1.webp',
 		note: 5,
 		avis: "I've been riding my motorcycle for years, but I never had any security device because it was always much cheaper to just buy a new one. That's when I found CapsLock on Kickstarter and I immediately ordered it.",
 		delay: '2 days ago'
 	},
 	{
-		name: 'Andrea C.',
+		name: 'Bryan C.',
 		photo: 'produits/reviews/review_2.webp',
 		note: 4.9,
 		avis: "I've been using CapsLock for about three months now, and I couldn't be happier. It's so convenient just to slip the universal lock over my brake handle and know my bike is secure.",
 		delay: '5 days ago'
 	},
 	{
-		name: 'Sarah N.',
+		name: 'George N.',
 		photo: 'produits/reviews/review_3.webp',
 		note: 4.7,
 		avis: "I have used a few different brands of motorcycle locks over the years and the CapsLock is by far the best. This lock is probably the only lock that you will need to buy for your motorcycle or scooter.",
 		delay: '1 week ago'
 	},
 	{
-		name: 'Elizabeth S.',
+		name: 'Pascal S.',
 		photo: 'produits/reviews/review_4.webp',
 		note: 4.5,
 		avis: "The CapsLock is a great tool to help prevent motorcycle thefts. The CapsLock consists of two parts: a stainless steel lock with a high-security key and the CapsLock handlebar clamp",
 		delay: '1 week ago'
 	},
 	{
-		name: 'Coleen Q.',
+		name: 'Richard Q.',
 		photo: 'produits/reviews/review_5.webp',
 		note: 4.8,
-		avis: "The Nanofiber Cloth is a revolutionary new product that will change the cleaning industry. The Nanofiber cloth is made with a fabric made of nano-fibers that are 500 times thinner than a human hair. With its unique composition and microfiber technology, this cloth is able to clean better than any other cleaning product on the market.",
+		avis: "CapsLock is a security lock, ideal to protect your motorcycle and scooter. This security lock will protect the handlebar and brake handle from theft.",
 		delay: '1 week ago'},
 	{
 		name: 'Eva Q.',
@@ -41,14 +41,14 @@ export const Reviewsdata = [
 		delay: '2 weeks ago'
 	},
 	{
-		name: 'Elise L.',
+		name: 'Lucien L.',
 		photo: 'produits/reviews/review_7.webp',
 		note: 4.8,
 		avis: "It's easy to install and use, it makes the motorbike theft-proof, highly visible, and can be easily carried in your pocket.",
 		delay: '2 weeks ago'
 	},
 	{
-		name: 'Chelsea J.',
+		name: 'Regis J.',
 		photo: '',
 		note: 4.3,
 		avis: 'Why I like it? It works. The lock is very easy to mount and use. Simple bike protection device that reduces risk of motorcycle theft.',

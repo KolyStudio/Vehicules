@@ -32,7 +32,7 @@ Protect your motorbike in seconds with CapsLock, the revolutionary new security 
         titre='The Strongest motorbike '
         titrebg='Lock On'
         texte="
-motorbikes, motorbikes and mopeds are <b>prone to theft.</b>
+Motorbikes and mopeds are <b>prone to theft.</b>
 <br><br>
 Many people don't lock their motorbike or motorbike while they're parked. <b>Thieves know this</b> and they look for the bikes that haven't got any visible security locks.
      <br><br>   
