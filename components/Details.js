@@ -369,7 +369,7 @@ console.log(link);
               ""
             )}
 
-            <div>Claim Your Limited-Time Discount</div>
+            <div>ADD TO CART</div>
           </button>
         </section>
 
@@ -430,7 +430,7 @@ console.log(link);
               ""
             )}
 
-            <div>Claim Your Limited-Time Discount</div>
+            <div>ADD TO CART</div>
                   </button>
                 </div>
               ) : null}
