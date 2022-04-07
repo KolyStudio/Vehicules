@@ -59,7 +59,7 @@ export default function Reviews() {
       </section>
 
       <ResponsiveMasonry
-        columnsCountBreakPoints={{ 350: 2, 600: 3, 900: 4, 1050: 5, 1200: 5 }}
+        columnsCountBreakPoints={{ 350: 1, 600: 3, 900: 4, 1050: 5, 1200: 5 }}
         className='m-auto mt-10 w-[95%] lg:w-3/5 '>
         <Masonry>
           {Reviewsdata.slice(0, reviewsNumber).map((item, index) => {
