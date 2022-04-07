@@ -115,7 +115,7 @@ console.log(link);
         </article>
 
         <article className='flex items-center space-x-1 py-2'>
-          <span className='text-xl font-medium text-[#1b74e4]'>
+          <span className='text-xl font-medium text-[#f58523]'>
             {quantity == 1 ? (
               <h3>£{produit.price.toFixed(2)}</h3>
             ) : quantity == 2 ? (
@@ -288,7 +288,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 1 ? "border-black  text-primary" : "text-primary"}`}>£{produit.price.toFixed(2)}</span>
+              quantity == 1 ? "border-black  text-[#f58523]" : "text-[#f58523]"}`}>£{produit.price.toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2).toFixed(2)}</span>
               </div>
              </div>
@@ -298,7 +298,7 @@ console.log(link);
           <article
             onClick={() => quantityPicker(2)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 2 ? "bg-[#eef2fd] border-primary text-black" : ""
+              quantity == 2 ? "bg-[#eef2fd] border-[#f58523] text-[#f58523]" : ""
             }`}>
               <div className='flex items-center justify-between'>
               {/* <div className='absolute top-0 left-[35px] text-sm font-medium animate-pulse'>BEST SELLER</div> */}
@@ -311,7 +311,7 @@ console.log(link);
              <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF <br></br>= £{(((produit.price * 1.5) ) / 2).toFixed(2)} each</div>
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 2 ? " text-primary" : "text-primary"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
+              quantity == 2 ? " text-[#f58523]" : "text-[#f58523]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2 * 2).toFixed(2)}</span>
               </div>
               <div className='absolute bottom-0 left-[35px] text-sm font-medium'></div>
