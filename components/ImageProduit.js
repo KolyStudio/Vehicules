@@ -74,35 +74,35 @@ export default function ImageProduit() {
               <img
                 alt='test'
                 src='/produits/produit/prod_1.webp'
-                className='max-w-[50px] cursor-pointer rounded-xl border-[2px] border-primary lg:max-w-[70px] '
+                className='max-w-[50px] cursor-pointer rounded-2xl border-[3px] border-primary lg:max-w-[70px] '
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 alt='test'
                 src='/produits/produit/prod_2.webp'
-                className='max-w-[50px] cursor-pointer rounded-xl border-[2px] border-primary lg:max-w-[70px]'
+                className='max-w-[50px] cursor-pointer rounded-2xl border-[3px] border-primary lg:max-w-[70px]'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 alt='test'
                 src='/produits/produit/prod_3.webp'
-                className='max-w-[50px] cursor-pointer rounded-xl border-[2px] border-primary lg:max-w-[70px]'
+                className='max-w-[50px] cursor-pointer rounded-2xl border-[3px] border-primary lg:max-w-[70px]'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 alt='test'
                 src='/produits/produit/prod_4.webp'
-                className='max-w-[50px] cursor-pointer rounded-xl border-[2px] border-primary lg:max-w-[70px]'
+                className='max-w-[50px] cursor-pointer rounded-2xl border-[3px] border-primary lg:max-w-[70px]'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 alt='test'
                 src='/produits/produit/prod_5.webp'
-                className='max-w-[50px] cursor-pointer rounded-xl border-[2px] border-primary lg:max-w-[70px]'
+                className='max-w-[50px] cursor-pointer rounded-2xl border-[3px] border-primary lg:max-w-[70px]'
               />
             </SwiperSlide>
             

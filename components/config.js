@@ -14,18 +14,18 @@ export const produit = {
   id: 13,
   review: 236,
   note: 4.8,
-  description: "It is the <b>most effective lock against theft</b>, guaranteed to keep your motorbike safe even in public parking facilities <b>exposed to high risk.</b>",
+  description: "It is the <b>most effective lock against theft</b>, guaranteed to keep your motorcycle safe even in public parking facilities <b>exposed to high risk.</b>",
   argument1: "Secure your motorcycle in one click",
   argument2: "Resistant to all breakage attempts",
-  argument3: "Find your motorbike when you come back",
-  argument4: "10 seconds to save your motorbike",
+  argument3: "Find your motorcycle when you come back",
+  argument4: "10 seconds to save your motorcycle",
   argument5: "No more stress",
   argument6: "For all types of steering wheels",
 };
 
 export const QuestionsProduit = [
   {
-    question: "Can I use it on a motorbike?",
+    question: "Can I use it on a motorcycle?",
     reponse:
       "Yes, our CapsLock fits any of your two wheels.",
   },

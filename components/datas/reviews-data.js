@@ -44,7 +44,7 @@ export const Reviewsdata = [
 		name: 'Lucien L.',
 		photo: 'produits/reviews/review_7.webp',
 		note: 4.8,
-		avis: "It's easy to install and use, it makes the motorbike theft-proof, highly visible, and can be easily carried in your pocket.",
+		avis: "It's easy to install and use, it makes the motorcycle theft-proof, highly visible, and can be easily carried in your pocket.",
 		delay: '2 weeks ago'
 	},
 	{
