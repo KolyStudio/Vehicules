@@ -18,7 +18,7 @@ export default function Footer() {
               <h1 className='text-l text-center font-semibold lg:text-lg'>
                 SECURE PAYMENT
               </h1>
-              <p>Visa, Mastercard, Amex, Maestro</p>
+              <p>Visa, Mastercard, Amex, Paypal</p>
             </div>
           </div>
 
