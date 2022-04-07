@@ -380,7 +380,7 @@ console.log(link);
                 className='w-[25px]  '
               />
         <h3 className="">
-           Congrats, a private<strong className="text-primary"> 50% OFF discount has been applied</strong>, because you came from <strong className="text-primary">Facebook </strong>. Valid until <strong className="text-primary">Facebook 07 April.</strong>
+           Congrats, a private<strong className="text-primary"> 50% OFF discount has been applied</strong>, because you came from <strong className="text-primary">Facebook </strong>. Valid until <strong className="text-primary">07 April.</strong>
         </h3>
       </section> 
 
