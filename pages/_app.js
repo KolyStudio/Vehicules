@@ -21,7 +21,8 @@ function MyApp({ Component, pageProps }) {
     ReactPixel.track("ViewContent");
   });
   const router = useRouter();
- 
+  useEffect(() => {
+  
 
     const handleRouteChange = (url) => {
       ga.pageview(url);
