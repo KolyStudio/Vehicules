@@ -97,11 +97,11 @@ console.log(link);
 
         <article className='flex space-x-1 py-1'>
           <div className='flex items-center space-x-0.5'>
-            <img src='/icons/star.svg' alt='star' className='w-[17px]' />
-            <img src='/icons/star.svg' alt='star' className='w-[17px]' />
-            <img src='/icons/star.svg' alt='star' className='w-[17px]' />
-            <img src='/icons/star.svg' alt='star' className='w-[17px]' />
-            <img src='/icons/stargray.svg' alt='star' className='w-[17px]' />
+            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
+            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
+            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
+            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
+            <img src='/icons/stargray.svg' alt='star' className='w-[14px]' />
           </div>
           <span className='pt-1 font-medium'>
             {produit.note}
