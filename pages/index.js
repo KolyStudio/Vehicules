@@ -9,6 +9,7 @@ import Reviews from "../components/Reviews";
 import SEO from "../components/Seo";
 import { site, produit } from "../components/config";
 import Head from "next/head";
+import { hotjar } from 'react-hotjar';
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 export default function Home() {
