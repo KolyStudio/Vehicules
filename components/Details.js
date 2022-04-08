@@ -166,7 +166,11 @@ console.log(link);
 
 
 
-{/*
+
+
+
+
+<div className='border rounded-xl p-3 lg:w-[80%] w-full'>
 <section className=' flex  lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm lg:m-0 md:w-3/5 lg:w-[80%]   tracking-wider'>
 <img
                 alt='produit.price'
@@ -174,12 +178,8 @@ console.log(link);
                 className='w-[25px]'
               />
 
-  <div >You came here from <strong className="text-primary">Facebook</strong> ? Congrats. We applied a <strong className="text-primary">limited time special discount</strong> for you.
-  </div></section> */}
-
-
-<div className='border rounded-xl p-3 lg:w-[80%] w-full'>
-
+  <div >Because you came from <strong className="text-primary">Facebook</strong>. We applied an exclusive <strong className="text-primary">50% OFF discount </strong> instead of 30%, valid until <strong className="text-primary">{date}</strong>.
+  </div></section> 
 
 <section className='flex space-x-1 py-2  pb-2 text-sm font-medium uppercase md:w-3/5 md:m-auto lg:m-0'>
 
@@ -347,7 +347,7 @@ console.log(link);
         <section className=' md:m-auto lg:m-0'>
           <button
             onClick={AddToCart}
-            className='  flex w-full items-center justify-center  p-2 py-3.5 font-medium text-white bg-[#46c559] border-[3px] border-[#44ac54] tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center  p-2 py-3.5 uppercase font-medium text-white bg-[#46c559] border-[3px] border-[#44ac54] tracking-wider rounded-xl'>
             {loading ? (
               <svg
                 className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
@@ -370,7 +370,7 @@ console.log(link);
               ""
             )}
 
-            <div>ADD TO CART</div>
+            <div>Claim Your Limited-Time Discount</div>
           </button>
         </section>
         {/* <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
