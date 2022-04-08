@@ -6,10 +6,10 @@ export default function Announcement() {
     <img
                 alt='produit.price'
                 src='icons/fb.svg'
-                className='w-[25px] lg:static absolute left-2'
+                className='w-[20px] lg:static absolute left-1'
               />
               
-               <div className="lg:pl-0  text-center" ><strong className="text-[#1b74e4]">FB FLASH OFFER:</strong> <span className="font-medium">50% OFF & FREE DELIVERY ✨</span>
+               <div className="lg:pl-0  text-center" ><strong className="text-[#1b74e4]">FLASH OFFER:</strong> <span className="font-medium">50% OFF & FREE DELIVERY UNTIL <strong className="text-[#1b74e4]">08 APRIL</strong></span>
               </div>
     </section>
   );
