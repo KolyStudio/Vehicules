@@ -54,12 +54,6 @@ export default function ImageProduit() {
             />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              alt='test'
-              src='/produits/produit/prod_5.webp'
-              className='w-[600px] p-2 rounded-3xl'
-            />
-          </SwiperSlide>
           
         </Swiper>
         <div className='relative m-auto mt-2 lg:mt-5  '>
@@ -96,13 +90,6 @@ export default function ImageProduit() {
                 alt='test'
                 src='/produits/produit/prod_4.webp'
                 className='max-w-[50px] cursor-pointer rounded-2xl   lg:max-w-[70px]'
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                alt='test'
-                src='/produits/produit/prod_5.webp'
-                className='max-w-[50px] cursor-pointer rounded-2xl  lg:max-w-[70px]'
               />
             </SwiperSlide>
             
