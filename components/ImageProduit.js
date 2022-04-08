@@ -19,7 +19,7 @@ export default function ImageProduit() {
       <section className='w-full'>
         
         <Swiper
-          className='  p-3 md:w-[550px] lg:mt-10 lg:w-[550px]  '
+          className=' p-3 md:w-[550px] lg:mt-10 lg:w-[550px]  '
           modules={[Thumbs, Navigation, Pagination, Scrollbar, A11y]}
           loop
           pagination={{ clickable: true }}
@@ -68,28 +68,28 @@ export default function ImageProduit() {
               <img
                 alt='test'
                 src='/produits/produit/prod_1.webp'
-                className='max-w-[50px] cursor-pointer rounded-xl border-[#fbede2] border-[2px] lg:max-w-[70px] '
+                className='max-w-[50px] cursor-pointer rounded-xl border-[#6fa6ff] border-[2px] lg:max-w-[70px] '
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 alt='test'
                 src='/produits/produit/prod_2.webp'
-                className='max-w-[50px] cursor-pointer rounded-xl border-[#fbede2] border-[2px] lg:max-w-[70px]'
+                className='max-w-[50px] cursor-pointer rounded-xl border-[#6fa6ff] border-[2px] lg:max-w-[70px]'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 alt='test'
                 src='/produits/produit/prod_3.webp'
-                className='max-w-[50px] cursor-pointer rounded-xl border-[#fbede2] border-[2px] lg:max-w-[70px]'
+                className='max-w-[50px] cursor-pointer rounded-xl border-[#6fa6ff] border-[2px] lg:max-w-[70px]'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 alt='test'
                 src='/produits/produit/prod_4.webp'
-                className='max-w-[50px] cursor-pointer rounded-xl border-[#fbede2] border-[2px]  lg:max-w-[70px]'
+                className='max-w-[50px] cursor-pointer rounded-xl border-[#6fa6ff] border-[2px]  lg:max-w-[70px]'
               />
             </SwiperSlide>
             

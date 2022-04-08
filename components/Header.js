@@ -24,9 +24,9 @@ export default function Header() {
             <Link href='/' passHref>
               <a>{produit.name}.</a>
             </Link>
-            <Link href='/' passHref>
+            {/* <Link href='/' passHref>
               <a>About us.</a>
-            </Link>
+            </Link> */}
             <Link href='/faq' passHref>
               <a>FAQ.</a>
             </Link>
@@ -126,14 +126,14 @@ export default function Header() {
                       {produit.name}
                     </a>
                   </Link>
-                  <Link href='/' passHref>
+                  {/* <Link href='/' passHref>
                     <a
                       onClick={() => {
                         setIsOpen(false);
                       }}>
                       About us.
                     </a>
-                  </Link>
+                  </Link> */}
                   <Link href='/faq' passHref>
                     <a
                       onClick={() => {

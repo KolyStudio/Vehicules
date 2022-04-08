@@ -7,10 +7,11 @@ export default function Reviews() {
 
   return (
     <>
+    <div className="bg-[#f6f6f6] mt-10 pb-10">
       <section className='py-5 text-center text-2xl font-bold lg:text-3xl'>
         Customer Reviews
       </section>
-      <section className='m-auto flex w-[95%] items-center rounded-2xl border-[5px] border-[#FBEDE2] p-5 shadow-xl md:w-[90%] lg:w-[600px]'>
+      <section className='m-auto flex w-[95%] items-center rounded-2xl bg-white p-5 shadow-xl md:w-[90%] lg:w-[600px]'>
         <article className='w-full space-y-[-15px]'>
           <div className='flex  items-center justify-center pb-5 text-center font-medium'>
             <span className='mb-0 flex pb-0 text-4xl font-bold'>4.8</span>/5
@@ -66,7 +67,7 @@ export default function Reviews() {
             return (
               <article
                 key={item.name}
-                className='m-1 break-inside-avoid rounded-3xl border-[5px] border-[#FBEDE2] bg-white'>
+                className='m-1 break-inside-avoid rounded-3xl bg-white shadow-xl'>
                 {item.photo ? (
                   <img
                     alt='avisphoto'
@@ -184,9 +185,9 @@ export default function Reviews() {
         onClick={() => setreviewsNumber(reviewsNumber + 10)}
         id='loadmore'
         type='button'
-        className='m-auto flex rounded-xl bg-[#FBEDE2] p-2 px-4 text-center text-lg font-medium'>
+        className='m-auto flex rounded-xl bg-white shadow-xl p-2 px-4 text-center text-lg font-medium'>
         Show more
-      </button>
+      </button></div>
     </>
   );
 }
