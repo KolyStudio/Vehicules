@@ -164,7 +164,7 @@ console.log(link);
 
         <section className=" flex space-x-2">
         <article  onClick={() => variantePicker(27)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 27 ? 'border-bar border-2 bg-bar text-white' : 'border-2 bg-[#f6f6f6] text-black'
+              variante == 27 ? 'border-black border-2 bg-black text-white' : 'border-2 bg-[#f6f6f6] text-black'
             }`}>Black</article>
           <article  onClick={() => variantePicker(26)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center ${
               variante == 26 ? 'border-black border-2 bg-black text-white' : 'border-2 bg-[#f6f6f6] text-black'
@@ -278,10 +278,10 @@ console.log(link);
         <section className=' md:m-auto lg:m-0 pt-4'>
           <button
             onClick={AddToCart}
-            className='  flex w-full items-center justify-center    text-white bg-[#5564f8]  tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center    text-white bg-[#5581f8]  tracking-wider rounded-xl'>
             <div className="w-full flex rounded-lg items-center">
               
-              <div className="bg-[#617bff] w-full font-medium rounded-l-xl py-2 text-left pl-7">
+              <div className="bg-[#6fa6ff] w-full font-medium rounded-l-xl py-2 text-left pl-7">
               {quantity == 1 ? (
               <h3>£{produit.price.toFixed(2)}</h3>
             ) : quantity == 2 ? (
@@ -292,7 +292,7 @@ console.log(link);
             <div className="text-gray-200 text-sm">Total Price</div>
 
               </div>
-              <div className="bg-[#5564f8] w-[80%] font-medium rounded-r-xl py-2 flex items-center space-x-1">
+              <div className="bg-[#5581f8] w-[80%] font-medium rounded-r-xl py-2 flex items-center space-x-1">
               <div className="">{loading ? (
               <svg
                 className='ml-1 mr-3 h-5 w-5 animate-spin text-white '
@@ -312,10 +312,10 @@ console.log(link);
                   d='M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z'></path>
               </svg>
             ) : (
-              <div className="w-8"></div>
+              <div className="w-6"></div>
             )}</div>
 
-            <div className="">Buy Now </div>
+            <div className="">Add To Cart </div>
          </div> </div></button>
         </section>
         {/* <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
