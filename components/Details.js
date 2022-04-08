@@ -98,52 +98,9 @@ console.log(link);
 
         <h1 className='text-[22px]  font-semibold '>{produit.name}</h1>
 
-        <article className='flex space-x-1 py-1'>
-          <div className='flex items-center space-x-0.5'>
-            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
-            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
-            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
-            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
-            <img src='/icons/halfstar.svg' alt='star' className='w-[14px]' />
-          </div>
-          <span className='pt-1 font-medium'>
-            {produit.note}
-            <span className='pl-1 text-stone-500'>
-              ({produit.review} Reviews)
-            </span>
-          </span>
-        </article>
+        
 
-        <article className='flex items-center space-x-1 py-2'>
-          <span className='text-xl font-medium text-[#e64a43]'>
-            {quantity == 1 ? (
-              <h3>£{produit.price.toFixed(2)}</h3>
-            ) : quantity == 2 ? (
-              <h3>£{(produit.price * 1.5).toFixed(2)}</h3>
-            ) : (
-              <h3>£{(produit.price * 2).toFixed(2)}</h3>
-            )}
-          </span>
-          <span className='text-xl font-medium text-stone-500 line-through'>
-            {quantity == 1 ? (
-              <h3>£{(produit.price * 2).toFixed(2)}</h3>
-            ) : quantity == 2 ? (
-              <h3>£{(produit.price * 2 * 2).toFixed(2)}</h3>
-            ) : (
-              <h3>£{(produit.price * 2 * 3).toFixed(2)}</h3>
-            )}
-          </span>
-          <span className='rounded  bg-primary text-white p-1 py-[1px] text-sm font-medium uppercase '>
-            {quantity == 1 ? (
-              <span>50% </span>
-            ) : quantity == 2 ? (
-              <span>63% </span>
-            ) : (
-              <span>68% </span>
-            )}
-            OFF & FREE DELIVERY
-          </span>
-        </article>
+       
 
          <section className='pt-3 text-[15px] lg:w-4/5 '>
         {ReactHtmlParser(produit.description)}
@@ -347,28 +304,63 @@ console.log(link);
 
         </section>
 
-        {/* <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
+         <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
         <img
                 alt='produit.price'
                 src='icons/fb.svg'
                 className='w-[25px]  '
               />
         <h3 className="">
-           We have applied a <strong className="text-[#1b74e4]">  {quantity == 1 ? (
+        <strong className="text-[#1b74e4]"> Your Coupon (FB67K5UE) - {quantity == 1 ? (
               <span>50% </span>
             ) : quantity == 2 ? (
               <span>63% </span>
             ) : (
               <span>68% </span>
-            )} OFF discount coupon (FB67K5UE)</strong> instead of 30% OFF, because you came from <strong className="text-[#1b74e4]">Facebook</strong>. Valid until <strong className="text-[#1b74e4]">{date}.</strong>
+            )} OFF</strong> has been applied, because you came from <strong className="text-[#1b74e4]">Facebook. </strong> Valid until <strong className="text-[#1b74e4]">{date}.</strong>
         </h3>
-      </section>  */}
+      </section>
 
+<div className="flex justify-between items-center">
+<article className='flex space-x-1 py-4 '>
+          <div className='flex items-center space-x-0.5 mt-[-1px]'>
+            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
+          </div>
+          <span className=' font-medium'>
+             {produit.note}
+            <span className=' text-stone-500 pl-1'>
+               ({produit.review} Reviews)
+            </span>
+          </span>
+        </article>
+
+        <article className='flex items-center space-x-1'>
+          <span className='text-lg font-medium text-[#e64a43]'>
+            {quantity == 1 ? (
+              <h3>£{produit.price.toFixed(2)}</h3>
+            ) : quantity == 2 ? (
+              <h3>£{(produit.price * 1.5).toFixed(2)}</h3>
+            ) : (
+              <h3>£{(produit.price * 2).toFixed(2)}</h3>
+            )}
+          </span>
+          <span className='text-lg font-medium text-stone-500 line-through'>
+            {quantity == 1 ? (
+              <h3>£{(produit.price * 2).toFixed(2)}</h3>
+            ) : quantity == 2 ? (
+              <h3>£{(produit.price * 2 * 2).toFixed(2)}</h3>
+            ) : (
+              <h3>£{(produit.price * 2 * 3).toFixed(2)}</h3>
+            )}
+          </span>
+         
+        </article>
+</div>
 
         <section className=' md:m-auto lg:m-0'>
           <button
             onClick={AddToCart}
-            className=' mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-black text-white  tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-primary text-white  tracking-wider rounded-xl'>
             {loading ? (
               <svg
                 className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
@@ -391,13 +383,7 @@ console.log(link);
               ""
             )}
 
-            <div>ADD TO CART - {quantity == 1 ? (
-              <>£{produit.price.toFixed(2)}</>
-            ) : quantity == 2 ? (
-              <>£{(produit.price * 1.5).toFixed(2)}</>
-            ) : (
-              <>£{(produit.price * 2).toFixed(2)}</>
-            )}</div>
+            <div>ADD TO CART</div>
           </button>
         </section>
        
@@ -427,7 +413,7 @@ console.log(link);
                 <div className=' lg:hidden  m-auto fixed bottom-0 left-0 right-0 z-[2]'>
                   <button
                  onClick={AddToCart}
-                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-black text-white  tracking-wider'>
+                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-primary text-white  tracking-wider'>
 
                   {loading ? (
               <svg
@@ -451,13 +437,7 @@ console.log(link);
               ""
             )}
 
-<div>ADD TO CART - {quantity == 1 ? (
-              <>£{produit.price.toFixed(2)}</>
-            ) : quantity == 2 ? (
-              <>£{(produit.price * 1.5).toFixed(2)}</>
-            ) : (
-              <>£{(produit.price * 2).toFixed(2)}</>
-            )}</div>
+<div>ADD TO CART</div>
                   </button>
                 </div>
               ) : null}

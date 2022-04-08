@@ -59,10 +59,10 @@ export default function Assets() {
         <h3>Secure payments with our partners</h3>
       </section>  
 
-<section className='  md:m-auto mt-4 lg:mt-4 md:mt-4 justify-center rounded-lg bg-[#edecec]   p-1 py-2 lg:m-0 md:w-3/5 lg:w-[80%]   tracking-wider'>
-  <div className="text-center font-bold">Our guarantees</div>
-<div className="w-[70%] m-auto">
-  <div className='flex space-x-2 border-b py-1'>
+<section className='  md:m-auto mt-4 lg:mt-4 md:mt-4 justify-center rounded-lg bg-[#e7f3ff]   p-1 py-2 lg:m-0 md:w-3/5 lg:w-[80%]   tracking-wider'>
+  <div className="text-center font-bold text-[#1b74e4]">Our guarantees</div>
+<div className="w-[70%] m-auto text-[#1b74e4]">
+  <div className='flex space-x-2 border-b py-1 '>
      <img
        alt='produit.price'
        src='icons/checktest2.svg'
