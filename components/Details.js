@@ -180,22 +180,7 @@ console.log(link);
 
 <div className='border rounded-xl p-3 lg:w-[80%] w-full'>
 
-<section className=' flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
-        <img
-                alt='produit.price'
-                src='icons/fb.svg'
-                className='w-[25px]  '
-              />
-        <h3 className="">
-        <strong className="text-[#1b74e4]"> Your Exclusive Facebook Coupon (FB67K5UE) - {quantity == 1 ? (
-              <span>50% </span>
-            ) : quantity == 2 ? (
-              <span>63% </span>
-            ) : (
-              <span>68% </span>
-            )} OFF</strong> has been applied. Valid until <strong className="text-[#1b74e4]">{date}.</strong>
-        </h3>
-      </section>
+
 <section className='flex space-x-1 py-2  pb-2 text-sm font-medium uppercase md:w-3/5 md:m-auto lg:m-0'>
 
           <span>
@@ -388,7 +373,22 @@ console.log(link);
             <div>ADD TO CART</div>
           </button>
         </section>
-       
+        <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
+        <img
+                alt='produit.price'
+                src='icons/fb.svg'
+                className='w-[25px]  '
+              />
+        <h3 className="">
+        <strong className="text-[#1b74e4]"> Your Exclusive Facebook Coupon (FB67K5UE) - {quantity == 1 ? (
+              <span>50% </span>
+            ) : quantity == 2 ? (
+              <span>63% </span>
+            ) : (
+              <span>68% </span>
+            )} OFF</strong> has been applied. Valid until <strong className="text-[#1b74e4]">{date}.</strong>
+        </h3>
+      </section>
 
 
 
