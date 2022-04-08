@@ -273,46 +273,12 @@ console.log(link);
 
        
 
-<div className="flex justify-between items-center">
-<article className='flex space-x-1 py-4 '>
-          <div className='flex items-center space-x-0.5 mt-[-1px]'>
-            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
-          </div>
-          <span className=' font-medium'>
-             {produit.note}
-            <span className=' text-stone-500 pl-1 font-normal'>
-               ({produit.review} Reviews)
-            </span>
-          </span>
-        </article>
 
-        <article className='flex items-center space-x-1'>
-          <span className='text-lg font-medium text-primary'>
-            {quantity == 1 ? (
-              <h3>£{produit.price.toFixed(2)}</h3>
-            ) : quantity == 2 ? (
-              <h3>£{(produit.price * 1.5).toFixed(2)}</h3>
-            ) : (
-              <h3>£{(produit.price * 2).toFixed(2)}</h3>
-            )}
-          </span>
-          <span className='text-lg font-medium text-stone-500 line-through'>
-            {quantity == 1 ? (
-              <h3>£{(produit.price * 2).toFixed(2)}</h3>
-            ) : quantity == 2 ? (
-              <h3>£{(produit.price * 2 * 2).toFixed(2)}</h3>
-            ) : (
-              <h3>£{(produit.price * 2 * 3).toFixed(2)}</h3>
-            )}
-          </span>
-         
-        </article>
-</div>
 
-        <section className=' md:m-auto lg:m-0'>
+        <section className=' md:m-auto lg:m-0 pt-4'>
           <button
             onClick={AddToCart}
-            className='  flex w-full items-center justify-center  p-2 py-3.5 uppercase font-medium text-white bg-[#56bb66]  tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center  p-2 py-3.5 font-medium text-white bg-[#6f55f8]  tracking-wider rounded-xl'>
             {loading ? (
               <svg
                 className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
@@ -335,7 +301,13 @@ console.log(link);
               ""
             )}
 
-            <div>ADD TO CART</div>
+            <div>Buy Now {quantity == 1 ? (
+              <h3>£{produit.price.toFixed(2)}</h3>
+            ) : quantity == 2 ? (
+              <h3>£{(produit.price * 1.5).toFixed(2)}</h3>
+            ) : (
+              <h3>£{(produit.price * 2).toFixed(2)}</h3>
+            )}</div>
           </button>
         </section>
         {/* <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
