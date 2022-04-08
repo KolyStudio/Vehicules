@@ -179,6 +179,23 @@ console.log(link);
 
 
 <div className='border rounded-xl p-3 lg:w-[80%] w-full'>
+
+<section className=' flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
+        <img
+                alt='produit.price'
+                src='icons/fb.svg'
+                className='w-[25px]  '
+              />
+        <h3 className="">
+        <strong className="text-[#1b74e4]"> Your Exclusive Coupon (FB67K5UE) - {quantity == 1 ? (
+              <span>50% </span>
+            ) : quantity == 2 ? (
+              <span>63% </span>
+            ) : (
+              <span>68% </span>
+            )} OFF</strong> has been applied, because you came from <strong className="text-[#1b74e4]">Facebook. </strong> Valid until <strong className="text-[#1b74e4]">{date}.</strong>
+        </h3>
+      </section>
 <section className='flex space-x-1 py-2  pb-2 text-sm font-medium uppercase md:w-3/5 md:m-auto lg:m-0'>
 
           <span>
@@ -197,19 +214,19 @@ console.log(link);
 
         <section className=" flex space-x-2">
         <article  onClick={() => variantePicker(27)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 27 ? 'bg-primary text-white' : 'bg-[#f6f6f6] text-black'
+              variante == 27 ? 'bg-black text-white' : 'bg-[#f6f6f6] text-black'
             }`}>Black</article>
           <article  onClick={() => variantePicker(26)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center ${
-              variante == 26 ? "bg-primary text-white" : "bg-[#f6f6f6] text-black"
+              variante == 26 ? "bg-black text-white" : "bg-[#f6f6f6] text-black"
             }`}
 
           >Orange</article>
 
           <article  onClick={() => variantePicker(28)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 28 ? "bg-primary text-white" : "bg-[#f6f6f6] text-black"
+              variante == 28 ? "bg-black text-white" : "bg-[#f6f6f6] text-black"
             }`}>Red</article>
           <article  onClick={() => variantePicker(29)} className={` p-2  rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 29 ? "bg-primary text-white" : "bg-[#f6f6f6] text-black "
+              variante == 29 ? "bg-black text-white" : "bg-[#f6f6f6] text-black "
             }`}>Blue </article>
         </section>
 
@@ -232,12 +249,12 @@ console.log(link);
           <article
             onClick={() => quantityPicker(1)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 1 ? "bg-[#eef2fd] border-primary  text-black " : ""
+              quantity == 1 ? "bg-[#eef2fd] border-black  text-black " : ""
             }`}>
               <div className='flex items-center justify-between'>
             {quantity == 1 ? (
 
-<div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-gray-300'></div>
+<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-300'></div>
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
@@ -255,13 +272,13 @@ console.log(link);
           <article
             onClick={() => quantityPicker(2)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 2 ? "bg-[#eef2fd] border-primary text-black" : ""
+              quantity == 2 ? "bg-[#eef2fd] border-black text-black" : ""
             }`}>
               <div className='flex items-center justify-between'>
               {/* <div className='absolute top-0 left-[35px] text-sm font-medium animate-pulse'>BEST SELLER</div> */}
             {quantity == 2 ? (
 
-<div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-gray-300'></div>
+<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-300'></div>
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
@@ -279,12 +296,12 @@ console.log(link);
           <article
             onClick={() => quantityPicker(3)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 3 ? "bg-[#eef2fd] border-primary text-black" : ""
+              quantity == 3 ? "bg-[#eef2fd] border-black text-black" : ""
             }`}>
               <div className='flex items-center justify-between'>
             {quantity == 3 ? (
 
-<div className='w-[25px] bg-primary h-[20px] rounded-full border-[3px] border-gray-300'></div>
+<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-300'></div>
 
 
             ) : (
@@ -304,22 +321,7 @@ console.log(link);
 
         </section>
 
-         <section className='mt-5 flex lg:mx-auto lg:mt-2 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
-        <img
-                alt='produit.price'
-                src='icons/fb.svg'
-                className='w-[25px]  '
-              />
-        <h3 className="">
-        <strong className="text-[#1b74e4]"> Your Coupon (FB67K5UE) - {quantity == 1 ? (
-              <span>50% </span>
-            ) : quantity == 2 ? (
-              <span>63% </span>
-            ) : (
-              <span>68% </span>
-            )} OFF</strong> has been applied, because you came from <strong className="text-[#1b74e4]">Facebook. </strong> Valid until <strong className="text-[#1b74e4]">{date}.</strong>
-        </h3>
-      </section>
+       
 
 <div className="flex justify-between items-center">
 <article className='flex space-x-1 py-4 '>
@@ -328,7 +330,7 @@ console.log(link);
           </div>
           <span className=' font-medium'>
              {produit.note}
-            <span className=' text-stone-500 pl-1'>
+            <span className=' text-stone-500 pl-1 font-normal'>
                ({produit.review} Reviews)
             </span>
           </span>
@@ -360,7 +362,7 @@ console.log(link);
         <section className=' md:m-auto lg:m-0'>
           <button
             onClick={AddToCart}
-            className='  flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-primary text-white  tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-black text-white  tracking-wider rounded-xl'>
             {loading ? (
               <svg
                 className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
@@ -413,7 +415,7 @@ console.log(link);
                 <div className=' lg:hidden  m-auto fixed bottom-0 left-0 right-0 z-[2]'>
                   <button
                  onClick={AddToCart}
-                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-primary text-white  tracking-wider'>
+                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-black text-white  tracking-wider'>
 
                   {loading ? (
               <svg

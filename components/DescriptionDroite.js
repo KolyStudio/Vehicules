@@ -8,7 +8,7 @@ export default function DescriptionDroite({image, titre, titrebg, texte}) {
           <img
             alt='imgproduit'
             src={image}
-            className='m-auto w-[510px] rounded-[50px] '
+            className='m-auto w-[510px] rounded-[25px] '
           />
         </article>
         <article className='w-full space-y-4 lg:pr-10'>
