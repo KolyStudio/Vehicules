@@ -112,7 +112,7 @@ console.log(link);
           </span>
         </article>
 
-        <article className='bg-[#2ed573] px-2 py-1 font-medium text-white tracking-wider rounded-lg text-sm'>
+        <article className='bg-[#24bf64] px-2 py-1 font-medium text-white tracking-wider rounded-lg text-sm'>
           Available in stock
          
         </article>
@@ -164,19 +164,19 @@ console.log(link);
 
         <section className=" flex space-x-2">
         <article  onClick={() => variantePicker(27)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 27 ? 'border-primary border-2 bg-[#f6f6f6] text-black' : 'border-2 bg-[#f6f6f6] text-black'
+              variante == 27 ? 'border-black border-2 bg-black text-white' : 'border-2 bg-[#f6f6f6] text-black'
             }`}>Black</article>
           <article  onClick={() => variantePicker(26)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center ${
-              variante == 26 ? 'border-primary border-2 bg-[#f6f6f6] text-black' : 'border-2 bg-[#f6f6f6] text-black'
+              variante == 26 ? 'border-black border-2 bg-black text-white' : 'border-2 bg-[#f6f6f6] text-black'
             }`}
 
           >Orange</article>
 
           <article  onClick={() => variantePicker(28)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 28 ? 'border-primary border-2 bg-[#f6f6f6] text-black' : 'border-2 bg-[#f6f6f6] text-black'
+              variante == 28 ? 'border-black border-2 bg-black text-white' : 'border-2 bg-[#f6f6f6] text-black'
             }`}>Red</article>
           <article  onClick={() => variantePicker(29)} className={` p-2  rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 29 ? 'border-primary border-2 bg-[#f6f6f6] text-black' : 'border-2 bg-[#f6f6f6] text-black'
+              variante == 29 ? 'border-black border-2 bg-black text-white' : 'border-2 bg-[#f6f6f6] text-black'
             }`}>Blue </article>
         </section>
 
@@ -204,15 +204,15 @@ console.log(link);
               <div className='flex items-center justify-between'>
             {quantity == 1 ? (
 
-<div className='w-[24px] bg-primary h-[20px] rounded-full border-[3px] border-blue-300'></div>
+<div className='w-[24px] bg-black h-[20px] rounded-full border-[3px] border-gray-300'></div>
             ) : (
-              <div className='w-[24px] bg-gray-100 h-[20px] rounded-full border-[3px] border-blue-300'></div>
+              <div className='w-[24px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-300'></div>
             )}
              <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ <br></br><span className="text-sm">= Save £19.90 (-50%)</span></div>
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 1 ? "border-black  text-primary" : "text-primary"}`}>£{produit.price.toFixed(2)}</span>
+              quantity == 1 ? "border-black  text-black" : "text-black"}`}>£{produit.price.toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2).toFixed(2)}</span>
               </div>
              </div>
@@ -222,20 +222,20 @@ console.log(link);
           <article
             onClick={() => quantityPicker(2)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 2 ? "border-primary" : ""
+              quantity == 2 ? "border-black" : ""
             }`}>
               <div className='flex items-center justify-between'>
               {/* <div className='absolute top-0 left-[35px] text-sm font-medium animate-pulse'>BEST SELLER</div> */}
             {quantity == 2 ? (
 
-<div className='w-[24px] bg-primary h-[20px] rounded-full border-[3px] border-blue-300'></div>
+<div className='w-[24px] bg-black h-[20px] rounded-full border-[3px] border-gray-300'></div>
             ) : (
-              <div className='w-[24px] h-[20px] bg-gray-100 rounded-full border-[3px] border-blue-300'></div>
+              <div className='w-[24px] h-[20px] bg-gray-100 rounded-full border-[3px] border-gray-300'></div>
             )}
              <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF  <br></br><span className="text-sm">= Save £49.75 (-63%)</span></div>
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 2 ? " text-primary" : "text-primary"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
+              quantity == 2 ? " text-black" : "text-black"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2 * 2).toFixed(2)}</span>
               </div>
               <div className='absolute bottom-0 left-[35px] text-sm font-medium'></div>
@@ -246,22 +246,22 @@ console.log(link);
           <article
             onClick={() => quantityPicker(3)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 3 ? "border-primary" : ""
+              quantity == 3 ? "border-black" : ""
             }`}>
               <div className='flex items-center justify-between'>
             {quantity == 3 ? (
 
-<div className='w-[24px] bg-primary h-[20px] rounded-full border-[3px] border-blue-300'></div>
+<div className='w-[24px] bg-black h-[20px] rounded-full border-[3px] border-gray-300'></div>
 
 
             ) : (
-              <div className='w-[24px] bg-gray-100 h-[20px] rounded-full border-[3px] border-blue-300'></div>
+              <div className='w-[24px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-300'></div>
             )}
             <div className='font-medium w-full text-left pl-3'>2 x CapsLock™ + 3rd Free  <br></br><span className="text-sm">= Save £79.60 (-68%)</span></div>
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 3 ? "text-primary" : "text-primary"}`}>£{(produit.price * 2).toFixed(2)}</span>
+              quantity == 3 ? "text-black" : "text-black"}`}>£{(produit.price * 2).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'> £{(produit.price * 2 * 3).toFixed(2)}</span>
               </div>
 
