@@ -289,7 +289,7 @@ console.log(link);
             ) : (
               <h3>£{(produit.price * 2).toFixed(2)}</h3>
             )}
-            <div className="text-[#b8aaff] text-sm">Total Price</div>
+            <div className="text-gray-200 text-sm">Total Price</div>
 
               </div>
               <div className="bg-[#5564f8] w-[80%] font-medium rounded-r-xl py-2 flex items-center space-x-1">
