@@ -373,7 +373,7 @@ console.log(link);
             <div>ADD TO CART</div>
           </button>
         </section>
-        <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
+        {/* <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
         <img
                 alt='produit.price'
                 src='icons/fb.svg'
@@ -388,7 +388,7 @@ console.log(link);
               <span>68% </span>
             )} OFF</strong> has been applied. Valid until <strong className="text-[#1b74e4]">{date}.</strong>
         </h3>
-      </section>
+      </section> */}
 
 
 
