@@ -199,19 +199,19 @@ console.log(link);
 
         <section className=" flex space-x-2">
         <article  onClick={() => variantePicker(27)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 27 ? 'bg-black text-white' : 'bg-[#f6f6f6] text-black'
+              variante == 27 ? 'border-primary border-2 bg-[#f6f6f6] text-black' : 'border-2 bg-[#f6f6f6] text-black'
             }`}>Black</article>
           <article  onClick={() => variantePicker(26)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center ${
-              variante == 26 ? "bg-black text-white" : "bg-[#f6f6f6] text-black"
+              variante == 26 ? 'border-primary border-2 bg-[#f6f6f6] text-black' : 'border-2 bg-[#f6f6f6] text-black'
             }`}
 
           >Orange</article>
 
           <article  onClick={() => variantePicker(28)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 28 ? "bg-black text-white" : "bg-[#f6f6f6] text-black"
+              variante == 28 ? 'border-primary border-2 bg-[#f6f6f6] text-black' : 'border-2 bg-[#f6f6f6] text-black'
             }`}>Red</article>
           <article  onClick={() => variantePicker(29)} className={` p-2  rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 29 ? "bg-black text-white" : "bg-[#f6f6f6] text-black "
+              variante == 29 ? 'border-primary border-2 bg-[#f6f6f6] text-black' : 'border-2 bg-[#f6f6f6] text-black'
             }`}>Blue </article>
         </section>
 
@@ -234,20 +234,20 @@ console.log(link);
           <article
             onClick={() => quantityPicker(1)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 1 ? "bg-[#eef2fd] border-black  text-black " : ""
+              quantity == 1 ? "border-primary" : ""
             }`}>
               <div className='flex items-center justify-between'>
             {quantity == 1 ? (
 
-<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-300'></div>
+<div className='w-[24px] bg-primary h-[20px] rounded-full border-[3px] border-blue-300'></div>
             ) : (
-              <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
+              <div className='w-[24px] bg-gray-100 h-[20px] rounded-full border-[3px] border-blue-300'></div>
             )}
              <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ <br></br>= £{(produit.price / 1).toFixed(2)} each (-50%)</div>
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 1 ? "border-black  text-[#e64a43]" : "text-[#e64a43]"}`}>£{produit.price.toFixed(2)}</span>
+              quantity == 1 ? "border-black  text-primary" : "text-primary"}`}>£{produit.price.toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2).toFixed(2)}</span>
               </div>
              </div>
@@ -257,20 +257,20 @@ console.log(link);
           <article
             onClick={() => quantityPicker(2)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 2 ? "bg-[#eef2fd] border-black text-black" : ""
+              quantity == 2 ? "border-primary" : ""
             }`}>
               <div className='flex items-center justify-between'>
               {/* <div className='absolute top-0 left-[35px] text-sm font-medium animate-pulse'>BEST SELLER</div> */}
             {quantity == 2 ? (
 
-<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-300'></div>
+<div className='w-[24px] bg-primary h-[20px] rounded-full border-[3px] border-blue-300'></div>
             ) : (
-              <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
+              <div className='w-[24px] h-[20px] bg-gray-100 rounded-full border-[3px] border-blue-300'></div>
             )}
              <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF  <br></br>= £{(((produit.price * 1.5) ) / 2).toFixed(2)} each (-63%)</div>
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 2 ? " text-[#e64a43]" : "text-[#e64a43]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
+              quantity == 2 ? " text-primary" : "text-primary"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2 * 2).toFixed(2)}</span>
               </div>
               <div className='absolute bottom-0 left-[35px] text-sm font-medium'></div>
@@ -281,22 +281,22 @@ console.log(link);
           <article
             onClick={() => quantityPicker(3)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 3 ? "bg-[#eef2fd] border-black text-black" : ""
+              quantity == 3 ? "border-primary" : ""
             }`}>
               <div className='flex items-center justify-between'>
             {quantity == 3 ? (
 
-<div className='w-[25px] bg-black h-[20px] rounded-full border-[3px] border-gray-300'></div>
+<div className='w-[24px] bg-primary h-[20px] rounded-full border-[3px] border-blue-300'></div>
 
 
             ) : (
-              <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
+              <div className='w-[24px] bg-gray-100 h-[20px] rounded-full border-[3px] border-blue-300'></div>
             )}
             <div className='font-medium w-full text-left pl-3'>2 x CapsLock™ + 3rd Free  <br></br>= £{(((produit.price * 2)) / 3).toFixed(2)} each (-68%)</div>
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 3 ? "text-[#e64a43]" : "text-[#e64a43]"}`}>£{(produit.price * 2).toFixed(2)}</span>
+              quantity == 3 ? "text-primary" : "text-primary"}`}>£{(produit.price * 2).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'> £{(produit.price * 2 * 3).toFixed(2)}</span>
               </div>
 
@@ -322,7 +322,7 @@ console.log(link);
         </article>
 
         <article className='flex items-center space-x-1'>
-          <span className='text-lg font-medium text-[#e64a43]'>
+          <span className='text-lg font-medium text-primary'>
             {quantity == 1 ? (
               <h3>£{produit.price.toFixed(2)}</h3>
             ) : quantity == 2 ? (
@@ -347,7 +347,7 @@ console.log(link);
         <section className=' md:m-auto lg:m-0'>
           <button
             onClick={AddToCart}
-            className='  flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-black text-white  tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center  p-2 py-3.5 font-medium text-white bg-[#55d769] border-[3px] border-[#44ac54] tracking-wider rounded-xl'>
             {loading ? (
               <svg
                 className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
@@ -411,7 +411,7 @@ console.log(link);
       </div>
 
 
-      {isVisible ? (
+      {/* {isVisible ? (
                 <div className=' lg:hidden  m-auto fixed bottom-0 left-0 right-0 z-[2]'>
                   <button
                  onClick={AddToCart}
@@ -442,7 +442,7 @@ console.log(link);
 <div>ADD TO CART</div>
                   </button>
                 </div>
-              ) : null}
+              ) : null} */}
 
 
 

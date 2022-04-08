@@ -19,7 +19,7 @@ export default function Header() {
               src='icons/menu.svg'
             />
           </article>
-          <h1 className='grow basis-0 cursor-pointer text-3xl font-bold text-black'>
+          <h1 className='grow basis-0 cursor-pointer text-3xl font-bold text-[#1b74e4]'>
             {site.nom}.
           </h1>
           <nav className='hidden space-x-10 text-sm font-medium uppercase tracking-[0.03em] lg:block text-black'>
