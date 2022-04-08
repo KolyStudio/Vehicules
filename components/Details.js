@@ -243,7 +243,7 @@ console.log(link);
             ) : (
               <div className='w-[24px] bg-gray-100 h-[20px] rounded-full border-[3px] border-blue-300'></div>
             )}
-             <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ <br></br>= Save £19.90 (-50%)</div>
+             <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ <br></br><span className="text-sm">= Save £19.90 (-50%)</span></div>
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
@@ -267,7 +267,7 @@ console.log(link);
             ) : (
               <div className='w-[24px] h-[20px] bg-gray-100 rounded-full border-[3px] border-blue-300'></div>
             )}
-             <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF  <br></br>= Save £49.75 (-63%)</div>
+             <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF  <br></br><span className="text-sm">= Save £49.75 (-63%)</span></div>
             <div className='flex flex-col'>
               <span className={` font-medium ${
               quantity == 2 ? " text-primary" : "text-primary"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
@@ -292,7 +292,7 @@ console.log(link);
             ) : (
               <div className='w-[24px] bg-gray-100 h-[20px] rounded-full border-[3px] border-blue-300'></div>
             )}
-            <div className='font-medium w-full text-left pl-3'>2 x CapsLock™ + 3rd Free  <br></br>= Save £79.60 (-68%)</div>
+            <div className='font-medium w-full text-left pl-3'>2 x CapsLock™ + 3rd Free  <br></br><span className="text-sm">= Save £79.60 (-68%)</span></div>
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
