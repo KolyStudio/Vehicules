@@ -187,13 +187,13 @@ console.log(link);
                 className='w-[25px]  '
               />
         <h3 className="">
-        <strong className="text-[#1b74e4]"> Your Exclusive Coupon (FB67K5UE) - {quantity == 1 ? (
+        <strong className="text-[#1b74e4]"> Your Exclusive Facebook Coupon (FB67K5UE) - {quantity == 1 ? (
               <span>50% </span>
             ) : quantity == 2 ? (
               <span>63% </span>
             ) : (
               <span>68% </span>
-            )} OFF</strong> has been applied, because you came from <strong className="text-[#1b74e4]">Facebook. </strong> Valid until <strong className="text-[#1b74e4]">{date}.</strong>
+            )} OFF</strong> has been applied. Valid until <strong className="text-[#1b74e4]">{date}.</strong>
         </h3>
       </section>
 <section className='flex space-x-1 py-2  pb-2 text-sm font-medium uppercase md:w-3/5 md:m-auto lg:m-0'>
