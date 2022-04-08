@@ -53,7 +53,7 @@ export default function ImageProduit() {
               className='w-[600px] p-2 rounded-3xl'
             />
           </SwiperSlide>
-          <SwiperSlide>
+          
           
         </Swiper>
         <div className='relative m-auto mt-2 lg:mt-5  '>
