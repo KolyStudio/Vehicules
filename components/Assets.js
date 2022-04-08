@@ -59,41 +59,64 @@ export default function Assets() {
         <h3>Secure payments with our partners</h3>
       </section>  
 
-<section className='  md:m-auto mt-4 lg:mt-4 md:mt-4 justify-center rounded-lg bg-[#fafafa]   p-1 py-2 lg:m-0 md:w-3/5 lg:w-[80%]   tracking-wider'>
-  <div className="text-center font-bold ">Our guarantees</div>
-<div className="w-[70%] m-auto ">
-  <div className='flex space-x-2 border-b py-1 '>
+<section className='  md:m-auto mt-4 lg:mt-4 md:mt-4 justify-center rounded-lg bg-bar/40   p-1 py-2 lg:m-0 md:w-3/5 lg:w-[80%]   tracking-wider'>
+<section>  <div className='text-[#11172b] font-semibold mt-2 text-center pb-2'>Why get CapsLock ?</div>
+
+<section className='mb-2 flex space-x-5 pb-3 font-medium w-[90%] m-auto'>
+ <article>
+   <div className='flex space-x-2 border-b py-1'>
      <img
        alt='produit.price'
-       src='icons/checktest2.svg'
+       src='icons/checktest.svg'
        className='w-[14px]'
      />
-     <h3 className="text-sm">Free Delivery in 4 to 7 Days</h3>
+     <h3>{produit.argument1}</h3>
    </div>
    <div className='flex space-x-2 border-b py-1'>
      <img
        alt='produit.price'
-       src='icons/checktest2.svg'
+       src='icons/checktest.svg'
        className='w-[14px]'
      />
-     <h3 className="text-sm">24/7 Customer Support</h3>
+     <h3>{produit.argument2}</h3>
    </div>
    <div className='flex space-x-2 border-b py-1'>
      <img
        alt='produit.price'
-       src='icons/checktest2.svg'
+       src='icons/checktest.svg'
        className='w-[14px]'
      />
-     <h3 className="text-sm">Easy Free Returns</h3>
+     <h3>{produit.argument3}</h3>
    </div>
    <div className='flex space-x-2 border-b py-1'>
      <img
        alt='produit.price'
-       src='icons/checktest2.svg'
+       src='icons/checktest.svg'
        className='w-[14px]'
      />
-     <h3 className="text-sm">Lifetime Warranty</h3>
-   </div></div></section> 
+     <h3>{produit.argument4}</h3>
+   </div>
+   <div className='flex space-x-2 border-b py-1'>
+     <img
+       alt='produit.price'
+       src='icons/checktest.svg'
+       className='w-[14px]'
+     />
+     <h3>{produit.argument5}</h3>
+   </div>
+   <div className='flex space-x-2 py-1'>
+     <img
+       alt='produit.price'
+       src='icons/checktest.svg'
+       className='w-[14px]'
+     />
+     <h3>{produit.argument6}</h3>
+   </div>
+ </article>
+ </section>
+</section>
+
+</section> 
 
 
       {/* <section className='mt-5  border-y-[1px] p-2 py-3 md:mx-auto md:w-3/5 lg:mx-0 lg:w-[80%]'>

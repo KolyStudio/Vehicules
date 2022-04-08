@@ -12,7 +12,7 @@ export default function DescriptionGauche({image, titre, titrebg, texte}) {
           />
         </article>
         <article className='w-full space-y-4 lg:pl-10'>
-          <h1 className='text-2xl font-bold lg:text-3xl '>
+          <h1 className='text-2xl font-medium lg:text-3xl '>
           {titre} {titrebg}
             <span className='rotate-180 text-white px-2 py-1  '>
             

@@ -28,13 +28,13 @@ export default function Reviews() {
           <article className='flex items-center'>
             <h3 className='w-full pr-2 text-right font-medium'>5 stars</h3>
             <div className='h-[5px] w-full rounded bg-gray-200'>
-              <div className='h-[5px] w-[70%] rounded bg-[#007f4e]' />
+              <div className='h-[5px] w-[70%] rounded bg-[#ffce00]' />
             </div>
           </article>
           <article className='flex items-center'>
             <h3 className='w-full pr-2 text-right font-medium'>4 stars</h3>
             <div className='h-[5px] w-full rounded bg-gray-200'>
-              <div className='h-[5px] w-[20%] rounded bg-[#007f4e]' />
+              <div className='h-[5px] w-[20%] rounded bg-[#ffce00]' />
             </div>
           </article>
           <article className='flex items-center'>
@@ -52,7 +52,7 @@ export default function Reviews() {
           <article className='flex items-center'>
             <h3 className='w-full pr-2 text-right font-medium'>1 star</h3>
             <div className=' h-[5px] w-full rounded bg-gray-200'>
-              <div className='h-[5px] w-[1%] rounded bg-[#ff3722]' />
+              <div className='h-[5px] w-[1%] rounded bg-[#ffce00]' />
             </div>
           </article>
         </section>
