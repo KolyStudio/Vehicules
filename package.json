@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "daisyui": "^2.11.0",
     "dayjs": "^1.11.0",
     "next": "12.1.0",
@@ -19,6 +22,7 @@
     "react-hook-form": "^7.28.0",
     "react-hotjar": "^5.0.0",
     "react-html-parser": "^2.0.2",
+    "react-icons": "^4.3.1",
     "react-responsive-masonry": "^2.1.4",
     "react-timer-hook": "^3.0.5",
     "swiper": "^8.0.7"

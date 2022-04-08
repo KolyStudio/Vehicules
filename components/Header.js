@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import { produit,site } from "./config";
+import { CgShoppingBag, CgMenuLeftAlt } from 'react-icons/cg';
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [cart, setCart] = useState(false);
@@ -9,17 +11,13 @@ export default function Header() {
     <>
       {/* Navbar */}
       <header>
-        <section className='border-1 flex items-center  bg-white justify-between border-b py-3 text-center text-accent lg:py-4 w-full'>
+        <section className=' rounded-t-3xl -mt-6 z-[-10] flex items-center  bg-white justify-between py-3 text-center text-accent lg:py-4 w-full'>
           <article
             className='grow  basis-0 text-left lg:hidden'
             onClick={() => setIsOpen(true)}>
-            <img
-              alt='panier'
-              className='ml-5 w-[25px] cursor-pointer lg:m-auto'
-              src='icons/menu.svg'
-            />
+             <CgMenuLeftAlt className="mr-auto lg:m-auto ml-5 text-black h-[25px] w-[25px] cursor-pointer"/>
           </article>
-          <h1 className='grow basis-0 cursor-pointer text-3xl font-bold text-[#1b74e4]'>
+          <h1 className='grow basis-0 cursor-pointer text-3xl font-bold text-[#242424]'>
             {site.nom}.
           </h1>
           <nav className='hidden space-x-10 text-sm font-medium uppercase tracking-[0.03em] lg:block text-black'>
@@ -39,14 +37,9 @@ export default function Header() {
               <a>Contact us.</a>
             </Link>
           </nav>
-          <article className='grow basis-0'
+          <article className='grow basis-0 '
           onClick={() => setCart(true)}>
-            <img
-              alt='panier'
-              className='ml-auto mr-5 cursor-pointer lg:m-auto '
-              src='icons/bag.svg'
-              
-            />
+            <CgShoppingBag className="ml-auto lg:m-auto mr-5 text-black h-[25px] w-[25px] cursor-pointer"/>
           </article>
         </section>
 

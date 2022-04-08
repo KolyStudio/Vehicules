@@ -133,7 +133,7 @@ body {
   font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-family: 'Platform' !important;
-    color: #000 !important;
+    color: #242424 !important;
     letter-spacing: 0.03em;
 }
 
@@ -164,6 +164,18 @@ a {
     height:8px !important;
 }
 
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+	background-color: white;
+	width: auto !important;
+	box-shadow: none;
+	border-radius: 10px;
+	padding: 0px 4px 0px 4px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+margin-left:70%;
+margin-bottom:5%;
+}
 .swiper-pagination-bullet-active {
     background:#1f1f1f !important;
     

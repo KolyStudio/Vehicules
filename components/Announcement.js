@@ -10,11 +10,10 @@ export default function Announcement() {
 
 
   return (
-    <section className=' bg-[#eef2fd] relative  uppercase py-2  items-center text-sm font-base text-BLACK tracking-wider flex justify-center space-x-2 px-1'>
+    <section className='bg-[#fbede2] relative h-[70px] text-[#242424] font-semibold pb-10 pt-5 uppercase  items-center text-sm font-base text-BLACK tracking-wider flex justify-center space-x-2 px-1 z-[-99] '>
     
               
-               <div className="lg:pl-0  text-center" ><strong className="text-[#1b74e4]">WINTER SALES:</strong> <span className="font-medium">50% OFF & FREE DELIVERY UNTIL <strong className="text-[#1b74e4]">{date}</strong></span>
-              </div>
+              {site.offre}
     </section>
   );
 }
