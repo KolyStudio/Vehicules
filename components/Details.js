@@ -92,9 +92,10 @@ console.log(link);
     <section className='z-0 w-[100%] '>
       <div className='lg:w-[70%]'>
       <article className='p-4 lg:max-w-[800px] lg:min-w-[600px] lg:pt-10 '>
-         {/* <h2 className='w-[150px] animate-pulse flex items-center  text-sm font-medium text-gray-500 '>
-          BEST SELLER IN UK <span className="block lg:hidden pl-1">🇬🇧</span>
-        </h2> */}
+
+         <h2 className='w-[150px]  flex items-center  text-sm font-medium text-gray-500 '>
+          BASED IN LONDON 
+        </h2> 
 
         <h1 className='text-[22px]  font-medium '>{produit.name}</h1>
 
@@ -118,67 +119,14 @@ console.log(link);
 </div>
 
        
+       <div className="font-semibold pt-2">Product Info</div>
 
-         <section className='pt-3 text-[15px] lg:w-4/5 '>
+         <section className='pt-1 text-[15px] lg:w-4/5 '>
         {ReactHtmlParser(produit.description)}
         </section>
 
 
-      <div className='text-[#11172b] font-semibold mt-2'>Why get CapsLock ?</div>
-
-<section className='mb-2 flex space-x-5 pb-3 font-medium'>
- <article>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument1}</h3>
-   </div>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument2}</h3>
-   </div>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument3}</h3>
-   </div>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument4}</h3>
-   </div>
-   <div className='flex space-x-2 border-b py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument5}</h3>
-   </div>
-   <div className='flex space-x-2 py-1'>
-     <img
-       alt='produit.price'
-       src='icons/checktest.svg'
-       className='w-[14px]'
-     />
-     <h3>{produit.argument6}</h3>
-   </div>
- </article>
-
-</section>
+    
 
 
 
@@ -187,7 +135,7 @@ console.log(link);
 
 
 
-<div className='border rounded-xl p-3 lg:w-[80%]  w-full'>
+<div className='border rounded-xl p-3 lg:w-[80%]  w-full mt-6'>
 {/* <section className=' flex  lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm lg:m-0  w-full  tracking-wider'>
 <img
                 alt='produit.price'
