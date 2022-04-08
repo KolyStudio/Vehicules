@@ -10,7 +10,7 @@ export default function Announcement() {
 
 
   return (
-    <section className=' bg-[#eef2fd] relative   py-2  items-center text-sm font-base text-BLACK tracking-wider flex justify-center space-x-2 px-1'>
+    <section className=' bg-[#eef2fd] relative  uppercase py-2  items-center text-sm font-base text-BLACK tracking-wider flex justify-center space-x-2 px-1'>
     <img
                 alt='produit.price'
                 src='icons/fb.svg'
