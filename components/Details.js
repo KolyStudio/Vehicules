@@ -96,9 +96,26 @@ console.log(link);
           BEST SELLER IN UK <span className="block lg:hidden pl-1">🇬🇧</span>
         </h2> */}
 
-        <h1 className='text-[22px]  font-semibold '>{produit.name}</h1>
+        <h1 className='text-[22px]  font-medium '>{produit.name}</h1>
 
-        
+        <div className="flex justify-between items-center  lg:w-[80%] ">
+<article className='flex space-x-1 py-2'>
+          <div className='flex items-center space-x-0.5 mt-[-1px]'>
+            <img src='/icons/star.svg' alt='star' className='w-[14px]' />
+          </div>
+          <span className=' font-medium'>
+             {produit.note}
+            <span className=' text-stone-500 pl-1 font-normal'>
+               ({produit.review} Reviews)
+            </span>
+          </span>
+        </article>
+
+        <article className='bg-[#2ed573] px-2 py-1 font-medium text-white tracking-wider rounded-lg text-sm'>
+          Available in stock
+         
+        </article>
+</div>
 
        
 
