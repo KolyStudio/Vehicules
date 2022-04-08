@@ -347,7 +347,7 @@ console.log(link);
         <section className=' md:m-auto lg:m-0'>
           <button
             onClick={AddToCart}
-            className='  flex w-full items-center justify-center  p-2 py-3.5 uppercase font-medium text-white bg-[#46c559] border-[3px] border-[#44ac54] tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center  p-2 py-3.5 uppercase font-medium text-white bg-[#56bb66]  tracking-wider rounded-xl'>
             {loading ? (
               <svg
                 className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
