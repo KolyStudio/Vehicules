@@ -2,9 +2,15 @@ import { site } from "./config";
 
 export default function Announcement() {
   return (
-    <section className=' bg-[#e7f3ff] relative font-medium text-center py-2  items-center text-sm  text-primary tracking-wider flex justify-center space-x-2 '>
-  
-FACEBOOK FLASH OFFER: 50% OFF & FREE DELIVERY ✨
+    <section className=' bg-[#eef2fd] relative   py-2  items-center text-sm font-base text-BLACK tracking-wider flex justify-center space-x-2 px-1'>
+    <img
+                alt='produit.price'
+                src='icons/fb.svg'
+                className='w-[25px] lg:static absolute left-2'
+              />
+              
+               <div className="lg:pl-0  text-center" ><strong className="text-[#1b74e4]">FB FLASH OFFER:</strong> <span className="font-medium">50% OFF & FREE DELIVERY ✨</span>
+              </div>
     </section>
   );
 }
