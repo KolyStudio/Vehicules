@@ -370,7 +370,7 @@ console.log(link);
               ""
             )}
 
-            <div>Claim Your Limited-Time Discount</div>
+            <div>ADD TO CART</div>
           </button>
         </section>
         {/* <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
