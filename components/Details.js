@@ -199,7 +199,7 @@ console.log(link);
           <article
             onClick={() => quantityPicker(1)}
             className={`relative w-full cursor-pointer p-1 rounded-xl border-[2px] text-center ${
-              quantity == 1 ? "border-primary" : ""
+              quantity == 1 ? "border-black" : ""
             }`}>
               <div className='flex items-center justify-between'>
             {quantity == 1 ? (
@@ -278,10 +278,10 @@ console.log(link);
         <section className=' md:m-auto lg:m-0 pt-4'>
           <button
             onClick={AddToCart}
-            className='  flex w-full items-center justify-center    text-white bg-[#6f55f8]  tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center    text-white bg-[#5564f8]  tracking-wider rounded-xl'>
             <div className="w-full flex rounded-lg items-center">
               
-              <div className="bg-[#7b61ff] w-full font-medium rounded-l-xl py-2 text-left pl-7">
+              <div className="bg-[#617bff] w-full font-medium rounded-l-xl py-2 text-left pl-7">
               {quantity == 1 ? (
               <h3>£{produit.price.toFixed(2)}</h3>
             ) : quantity == 2 ? (
@@ -292,7 +292,7 @@ console.log(link);
             <div className="text-[#b8aaff] text-sm">Total Price</div>
 
               </div>
-              <div className="bg-[#6f55f8] w-[80%] font-medium rounded-r-xl py-2 flex items-center space-x-1">
+              <div className="bg-[#5564f8] w-[80%] font-medium rounded-r-xl py-2 flex items-center space-x-1">
               <div className="">{loading ? (
               <svg
                 className='ml-1 mr-3 h-5 w-5 animate-spin text-white '
