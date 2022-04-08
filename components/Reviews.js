@@ -185,7 +185,7 @@ export default function Reviews() {
         onClick={() => setreviewsNumber(reviewsNumber + 10)}
         id='loadmore'
         type='button'
-        className='m-auto flex rounded-xl bg-white shadow-xl p-2 px-4 text-center text-lg font-medium'>
+        className=' mt-5 m-auto flex rounded-xl bg-white shadow-xl p-2 px-4 text-center text-lg font-medium'>
         Show more
       </button></div>
     </>

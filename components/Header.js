@@ -17,8 +17,8 @@ export default function Header() {
             onClick={() => setIsOpen(true)}>
              <CgMenuLeftAlt className="mr-auto lg:m-auto ml-5 text-black h-[25px] w-[25px] cursor-pointer"/>
           </article>
-          <h1 className='grow basis-0 cursor-pointer text-3xl font-bold text-[#242424]'>
-            {site.nom}.
+          <h1 className='grow basis-0 cursor-pointer lg:text-5xl text-4xl font-bold text-[#242424] logo'>
+            {site.nom}
           </h1>
           <nav className='hidden space-x-10 text-sm font-medium uppercase tracking-[0.03em] lg:block text-black'>
             <Link href='/' passHref>

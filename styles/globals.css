@@ -252,3 +252,12 @@ margin-bottom:5%;
 	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
   }
+
+  @font-face {
+	font-family: 'Richard';
+	src: url('fonts/Richard.ttf') format('truetype');
+  }
+
+  .logo {
+	  font-family: 'Richard' !important;
+  }
