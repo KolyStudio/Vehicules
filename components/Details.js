@@ -171,7 +171,7 @@ console.log(link);
 
 
 <div className='border rounded-xl p-3 lg:w-[80%]  w-full'>
-<section className=' flex  lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm lg:m-0  w-full  tracking-wider'>
+{/* <section className=' flex  lg:mt-2 md:mt-2 justify-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm lg:m-0  w-full  tracking-wider'>
 <img
                 alt='produit.price'
                 src='icons/fb.svg'
@@ -179,7 +179,7 @@ console.log(link);
               />
 
   <div >Because you came from <strong className="text-primary">Facebook</strong>. We applied an exclusive <strong className="text-primary">50% OFF discount </strong>(FB54SX12) instead of 30%, valid until <strong className="text-primary">{date}</strong>.
-  </div></section> 
+  </div></section>  */}
 
 <section className='flex space-x-1 py-2  pb-2 text-sm font-medium uppercase md:w-3/5 md:m-auto lg:m-0'>
 
