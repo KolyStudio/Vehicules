@@ -178,7 +178,7 @@ console.log(link);
                 className='w-[25px]'
               />
 
-  <div >Because you came from <strong className="text-primary">Facebook</strong>. We applied an exclusive <strong className="text-primary">50% OFF discount </strong> instead of 30%, valid until <strong className="text-primary">{date}</strong>.
+  <div >Because you came from <strong className="text-primary">Facebook</strong>. We applied an exclusive <strong className="text-primary">50% OFF discount </strong>(FB54SX12) instead of 30%, valid until <strong className="text-primary">{date}</strong>.
   </div></section> 
 
 <section className='flex space-x-1 py-2  pb-2 text-sm font-medium uppercase md:w-3/5 md:m-auto lg:m-0'>
