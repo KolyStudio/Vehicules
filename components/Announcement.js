@@ -10,7 +10,7 @@ export default function Announcement() {
 
 
   return (
-    <section className='bg-[#fbede2] relative h-[70px] text-[#242424] font-semibold pb-10 pt-5 uppercase  items-center text-sm font-base text-BLACK tracking-wider flex justify-center space-x-2 px-1 z-[-99] '>
+    <section className='bg-bar relative h-[70px] text-[#242424] font-semibold pb-10 pt-5 uppercase  items-center text-sm font-base text-BLACK tracking-wider flex justify-center space-x-2 px-1 z-[-99] '>
     
               
               {site.offre}
