@@ -284,7 +284,7 @@ console.log(link);
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
-             <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ <br></br>= £{(produit.price / 1).toFixed(2)} each</div>
+             <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ <br></br>= £{(produit.price / 1).toFixed(2)} each (-50%)</div>
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
@@ -308,7 +308,7 @@ console.log(link);
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
-             <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF <br></br>= £{(((produit.price * 1.5) ) / 2).toFixed(2)} each</div>
+             <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF  <br></br>= £{(((produit.price * 1.5) ) / 2).toFixed(2)} each (-63%)</div>
             <div className='flex flex-col'>
               <span className={` font-medium ${
               quantity == 2 ? " text-[#e64a43]" : "text-[#e64a43]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
@@ -333,7 +333,7 @@ console.log(link);
             ) : (
               <div className='w-[25px] bg-gray-100 h-[20px] rounded-full border-[3px] border-gray-400'></div>
             )}
-            <div className='font-medium w-full text-left pl-3'>2 x CapsLock™ + 3rd Free <br></br>= £{(((produit.price * 2)) / 3).toFixed(2)} each</div>
+            <div className='font-medium w-full text-left pl-3'>2 x CapsLock™ + 3rd Free  <br></br>= £{(((produit.price * 2)) / 3).toFixed(2)} each (-68%)</div>
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
