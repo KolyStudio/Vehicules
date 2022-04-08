@@ -164,7 +164,7 @@ console.log(link);
 
         <section className=" flex space-x-2">
         <article  onClick={() => variantePicker(27)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center  ${
-              variante == 27 ? 'border-black border-2 bg-black text-white' : 'border-2 bg-[#f6f6f6] text-black'
+              variante == 27 ? 'border-bar border-2 bg-bar text-white' : 'border-2 bg-[#f6f6f6] text-black'
             }`}>Black</article>
           <article  onClick={() => variantePicker(26)} className={` p-2 rounded-xl font-medium  cursor-pointer w-[100px] text-center ${
               variante == 26 ? 'border-black border-2 bg-black text-white' : 'border-2 bg-[#f6f6f6] text-black'
