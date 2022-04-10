@@ -322,7 +322,7 @@ console.log(link);
         <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 text-[#ff6723] rounded-lg bg-[#ffe8d2]   p-1 py-1 text-sm md:mx-auto lg:m-0 md:w-3/5 w-[80%] m-auto tracking-wider'>
         <RiAlarmWarningLine className=" h-[20px] w-[20px] "/>
         
-        <div className=""> Only <b>7</b> sales left at <b>50% OFF</b></div>
+        <div className=""> Only <b>7</b> CapsLock left <b>in stock</b></div>
         
       </section> 
 
