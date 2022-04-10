@@ -10,10 +10,10 @@ export default function Announcement() {
 
 
   return (
-    <section className='bg-bar relative h-[70px] text-[#242424] font-semibold pb-10 pt-5 uppercase text-center items-center text-sm font-base text-BLACK tracking-wider  justify-center space-x-2 px-1 z-[-99] '>
+    <section className='bg-bar relative h-[70px] text-[#242424] font-semibold pb-10 pt-4 uppercase text-center items-center text-sm font-base text-BLACK tracking-wider  justify-center space-x-2 px-1 z-[-99] '>
     
               
-              {site.offre} UNTIL<strong className="text-primary "> {date}</strong>
+              {site.offre} 🎉
     </section> 
   );
 }
