@@ -113,8 +113,8 @@ console.log(link);
           </span>
         </article>
 
-        <article className='bg-[#ffe8d2] px-2 py-1 font-medium text-[#ff6723] tracking-wider rounded-lg text-sm'>
-        🔥Strong Demand
+        <article className='bg-[#19ba57] px-2 py-1 font-medium text-white tracking-wider rounded-lg text-sm'>
+        In Stock
 
         </article>
 </div>
@@ -322,7 +322,7 @@ console.log(link);
         <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-1 text-sm md:mx-auto lg:m-0 md:w-3/5 w-[80%] m-auto tracking-wider'>
     
 
-        <div className="mt-[3px] text-sm"> <b>Warning !</b> Only <b>7</b> sales left at <b>50% OFF</b></div>
+        <div className="text-sm"> <b>Warning !</b> Only <b>7</b> sales left at <b>50% OFF</b></div>
 
       </section>
 
