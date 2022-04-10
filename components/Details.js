@@ -213,7 +213,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 1 ? "border-[#6fa6ff]  text-[#6fa6ff]" : "text-[#6fa6ff]"}`}>£{produit.price.toFixed(2)}</span>
+              quantity == 1 ? "border-[#6fa6ff]  text-[#b82704]" : "text-[#b82704]"}`}>£{produit.price.toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2).toFixed(2)}</span>
               </div>
              </div>
@@ -236,7 +236,7 @@ console.log(link);
              <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF  <br></br><span className="text-sm">= Save £49.75 (-63%)</span></div>
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 2 ? " text-[#6fa6ff]" : "text-[#6fa6ff]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
+              quantity == 2 ? " text-[#b82704]" : "text-[#b82704]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2 * 2).toFixed(2)}</span>
               </div>
               <div className='absolute bottom-0 left-[35px] text-sm font-medium'></div>
@@ -262,7 +262,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 3 ? "text-[#6fa6ff]" : "text-[#6fa6ff]"}`}>£{(produit.price * 2).toFixed(2)}</span>
+              quantity == 3 ? "text-[#b82704]" : "text-[#b82704]"}`}>£{(produit.price * 2).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'> £{(produit.price * 2 * 3).toFixed(2)}</span>
               </div>
 
@@ -293,7 +293,7 @@ console.log(link);
             <div className="text-gray-200 text-sm">Total Price</div>
 
               </div> */}
-              <div className="bg-[#ffa41c] w-full font-semibold rounded-xl py-4 flex items-center space-x-1">
+              <div className="bg-[#ffa41c] w-full font-medium rounded-xl py-4 flex items-center space-x-1">
               <div className="">{loading ? (
               <svg
                 className='ml-2 mr-3 h-5 w-5 animate-spin text-white '
