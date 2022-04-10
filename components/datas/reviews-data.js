@@ -3,7 +3,7 @@ export const Reviewsdata = [
 		name: 'Carlos C.',
 		photo: 'produits/reviews/review_1.webp',
 		note: 5,
-		avis: "I've been riding my motorcycle for years, but I never had any security device because it was always much cheaper to just buy a new one. That's when I found CapsLock on Kickstarter and I immediately ordered it.",
+		avis: "I've been riding my motorcycle for years, but I never had any security device. That's when I found CapsLock on Cincar and I immediately ordered it.",
 		delay: '2 days ago'
 	},
 	{

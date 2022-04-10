@@ -5,7 +5,7 @@ export const site = {
   fb_pixel: "496114882168181",
   ga_pixel: "G-PX8B89E9G",
   checkoutx: "https://secure.cincar.co/f/Y9NHD36G/b/",
-  offre: "WINTER SALES: ENJOY 50% OFF & FREE DELIVERY",
+  offre: "ENJOY 50% OFF & FREE DELIVERY",
 };
 
 export const produit = {
@@ -25,7 +25,7 @@ export const produit = {
 
 export const QuestionsProduit = [
   {
-    question: "Can I use it on a motorcycle?",
+    question: "Can I use it on a bike?",
     reponse:
       "Yes, our CapsLock fits any of your two wheels.",
   },

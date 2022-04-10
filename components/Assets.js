@@ -112,6 +112,14 @@ export default function Assets() {
      />
      <h3>{produit.argument6}</h3>
    </div>
+   <div className='flex space-x-2 py-1'>
+     <img
+       alt='produit.price'
+       src='icons/checktest.svg'
+       className='w-[14px]'
+     />
+     <h3>Free Delivery in 4 to 7 days</h3>
+   </div>
  </article>
  </section>
 </section>

@@ -8,6 +8,7 @@ import {useEffect } from "react";
   import React from 'react';
   import { useTimer } from 'react-timer-hook';
   import * as dayjs from 'dayjs'
+  import { RiAlarmWarningLine } from 'react-icons/ri';
 
 export default function Details() {
 
@@ -318,22 +319,12 @@ console.log(link);
             <div className="w-full">Add To Cart </div>
          </div> </div></button>
         </section>
-        {/* <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
-        <img
-                alt='produit.price'
-                src='icons/fb.svg'
-                className='w-[25px]  '
-              />
-        <h3 className="">
-        <strong className="text-[#1b74e4]"> Your Exclusive Facebook Coupon (FB67K5UE) - {quantity == 1 ? (
-              <span>50% </span>
-            ) : quantity == 2 ? (
-              <span>63% </span>
-            ) : (
-              <span>68% </span>
-            )} OFF</strong> has been applied. Valid until <strong className="text-[#1b74e4]">{date}.</strong>
-        </h3>
-      </section> */}
+        <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-2 text-sm md:mx-auto lg:m-0 md:w-3/5 lg:w-[90%] tracking-wider'>
+        <RiAlarmWarningLine className="text-[#f79e1b] h-[20px] w-[20px] "/>
+        
+        <div className="mt-[3px]"> <b>Warning !</b> Only <b>7</b> sales left at <b>50% OFF</b></div>
+        
+      </section> 
 
 
 
