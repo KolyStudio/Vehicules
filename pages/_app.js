@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
       
       <Layout>
         <Head>
-        <script src="//code.tidio.co/d0vtadn0l4mc4huoib9t4mncvaaijmud.js" async></script>
+        {/* <script src="//code.tidio.co/d0vtadn0l4mc4huoib9t4mncvaaijmud.js" async></script> */}
         <link rel='icon' type='image/png' href='/favicon.png' />
           <script
             async

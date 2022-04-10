@@ -95,8 +95,8 @@ console.log(link);
       <article className='p-4 lg:max-w-[800px] lg:min-w-[600px] lg:pt-10 '>
 
          <h2 className='w-[150px]  flex items-center  text-sm font-medium text-gray-500 '>
-          BASED IN LONDON
-        </h2>
+          BASED IN LONDON 
+        </h2> 
 
         <h1 className='text-[22px]  font-medium '>{produit.name}</h1>
 
@@ -113,13 +113,13 @@ console.log(link);
           </span>
         </article>
 
-        <article className='bg-[#19ba57] px-2 py-1 font-medium text-white tracking-wider rounded-lg text-sm'>
-        In Stock
+        <article className='bg-[#ffe8d2] px-2 py-1 font-medium text-[#ff6723] tracking-wider rounded-lg text-sm'>
+        🔥Low in stock
 
         </article>
 </div>
 
-
+       
        <div className="font-semibold pt-2">Product Info</div>
 
          <section className='pt-1 text-[15px] lg:w-4/5 '>
@@ -127,7 +127,7 @@ console.log(link);
         </section>
 
 
-
+    
 
 
 
@@ -213,7 +213,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 1 ? "border-[#6fa6ff]  text-[#b82704]" : "text-[#b82704]"}`}>£{produit.price.toFixed(2)}</span>
+              quantity == 1 ? "border-[#6fa6ff]  text-[#6fa6ff]" : "text-[#6fa6ff]"}`}>£{produit.price.toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2).toFixed(2)}</span>
               </div>
              </div>
@@ -236,7 +236,7 @@ console.log(link);
              <div className='font-medium w-full text-left pl-3'>1 x CapsLock™ + 2nd 50% OFF  <br></br><span className="text-sm">= Save £49.75 (-63%)</span></div>
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 2 ? " text-[#b82704]" : "text-[#b82704]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
+              quantity == 2 ? " text-[#6fa6ff]" : "text-[#6fa6ff]"}`}>£{(produit.price * 1.5).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'>£{(produit.price * 2 * 2).toFixed(2)}</span>
               </div>
               <div className='absolute bottom-0 left-[35px] text-sm font-medium'></div>
@@ -262,7 +262,7 @@ console.log(link);
 
             <div className='flex flex-col'>
               <span className={` font-medium ${
-              quantity == 3 ? "text-[#b82704]" : "text-[#b82704]"}`}>£{(produit.price * 2).toFixed(2)}</span>
+              quantity == 3 ? "text-[#6fa6ff]" : "text-[#6fa6ff]"}`}>£{(produit.price * 2).toFixed(2)}</span>
               <span className='line-through font-bold text-gray-500'> £{(produit.price * 2 * 3).toFixed(2)}</span>
               </div>
 
@@ -272,17 +272,17 @@ console.log(link);
 
         </section>
 
-
+       
 
 
 
         <section className=' md:m-auto lg:m-0 pt-4'>
           <button
             onClick={AddToCart}
-            className='  flex w-full items-center justify-center    text-black bg-[#ffa41c]  tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center    text-white bg-[#3d7de4]  tracking-wider rounded-xl'>
             <div className="w-full flex rounded-lg items-center">
-
-              {/* <div className="bg-[#fdb66c] w-[70%] font-medium rounded-l-xl py-2 text-left pl-7">
+              
+              <div className="bg-[#6fa6ff] w-[70%] font-medium rounded-l-xl py-2 text-left pl-7">
               {quantity == 1 ? (
               <h3>£{produit.price.toFixed(2)}</h3>
             ) : quantity == 2 ? (
@@ -292,8 +292,8 @@ console.log(link);
             )}
             <div className="text-gray-200 text-sm">Total Price</div>
 
-              </div> */}
-              <div className="bg-[#ffa41c] w-full font-medium rounded-xl py-4 flex items-center space-x-1">
+              </div>
+              <div className="bg-[#3d7de4] w-full font-medium rounded-r-xl py-2 flex items-center space-x-1">
               <div className="">{loading ? (
               <svg
                 className='ml-2 mr-3 h-5 w-5 animate-spin text-white '
@@ -319,12 +319,12 @@ console.log(link);
             <div className="w-full">Add To Cart </div>
          </div> </div></button>
         </section>
-        <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 rounded-lg bg-[#eef2fd]   p-1 py-1 text-sm md:mx-auto lg:m-0 md:w-3/5 w-[80%] m-auto tracking-wider'>
-    
-
-        <div className="text-sm"> <b>Warning !</b> Only <b>7</b> sales left at <b>50% OFF</b></div>
-
-      </section>
+        <section className=' mt-2 flex lg:mx-auto lg:mt-4 md:mt-2 justify-center items-center space-x-2 text-[#ff6723] rounded-lg bg-[#ffe8d2]   p-1 py-1 text-sm md:mx-auto lg:m-0 md:w-3/5 w-[80%] m-auto tracking-wider'>
+        <RiAlarmWarningLine className=" h-[20px] w-[20px] "/>
+        
+        <div className=""> Only <b>7</b> sales left at <b>50% OFF</b></div>
+        
+      </section> 
 
 
 
@@ -347,15 +347,28 @@ console.log(link);
       </div>
 
 
-      {/* {isVisible ? (
-                <div className=' lg:hidden  m-auto fixed bottom-0 left-0 right-0 z-[2]'>
+     {isVisible ? (
+                <div className=' lg:hidden  m-auto fixed bottom-0 left-0 right-0 z-[2]  m-2'>
                   <button
-                 onClick={AddToCart}
-                    className='  mt-5 flex w-full items-center justify-center  p-2 py-3.5 font-medium bg-black text-white  tracking-wider'>
+            onClick={AddToCart}
+            className='  flex w-full items-center justify-center    text-white bg-[#3d7de4]  tracking-wider rounded-xl'>
+            <div className="w-full flex rounded-lg items-center">
+              
+              <div className="bg-[#6fa6ff] w-[70%] font-medium rounded-l-xl py-2 text-left pl-7">
+              {quantity == 1 ? (
+              <h3>£{produit.price.toFixed(2)}</h3>
+            ) : quantity == 2 ? (
+              <h3>£{(produit.price * 1.5).toFixed(2)}</h3>
+            ) : (
+              <h3>£{(produit.price * 2).toFixed(2)}</h3>
+            )}
+            <div className="text-gray-200 text-sm">Total Price</div>
 
-                  {loading ? (
+              </div>
+              <div className="bg-[#3d7de4] w-full font-medium rounded-r-xl py-2 flex items-center space-x-1">
+              <div className="">{loading ? (
               <svg
-                className='-ml-1 mr-3 h-5 w-5 animate-spin text-white'
+                className='ml-2 mr-3 h-5 w-5 animate-spin text-white '
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
                 viewBox='0 0 24 24'>
@@ -367,18 +380,18 @@ console.log(link);
                   stroke='currentColor'
                   strokeWidth='4'></circle>
                 <path
-                  className='opacity-75 '
+                  className='opacity-75'
                   fill='currentColor'
                   d='M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z'></path>
               </svg>
             ) : (
-              ""
-            )}
+              <div className=""></div>
+            )}</div>
 
-<div>ADD TO CART</div>
-                  </button>
+            <div className="w-full">Add To Cart </div>
+         </div> </div></button>
                 </div>
-              ) : null} */}
+              ) : null}
 
 
 
