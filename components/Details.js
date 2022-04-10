@@ -279,7 +279,7 @@ console.log(link);
         <section className=' md:m-auto lg:m-0 pt-4'>
           <button
             onClick={AddToCart}
-            className='  flex w-full items-center justify-center    text-white bg-[#ffa41c]  tracking-wider rounded-xl'>
+            className='  flex w-full items-center justify-center    text-black bg-[#ffa41c]  tracking-wider rounded-xl'>
             <div className="w-full flex rounded-lg items-center">
 
               {/* <div className="bg-[#fdb66c] w-[70%] font-medium rounded-l-xl py-2 text-left pl-7">
