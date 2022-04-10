@@ -113,10 +113,10 @@ console.log(link);
           </span>
         </article>
 
-        <article className='bg-[#24bf64] px-2 py-1 font-medium text-white tracking-wider rounded-lg text-sm'>
-          Available in stock
+        <article className='bg-[#ffe8d2] px-2 py-1 font-medium text-[#ff6723] tracking-wider rounded-lg text-sm'>
+        🔥Strong Demand
          
-        </article>
+        </article> 
 </div>
 
        
